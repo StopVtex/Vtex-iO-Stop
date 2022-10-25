@@ -1,0 +1,84 @@
+.arrowUp {
+    display: none;
+}
+
+.portalContainer {
+    z-index: 999 !important;
+    top: -7px !important;
+    left: -8px !important;
+}
+.portalWrapper::after {
+    content: "";
+    width: 100%;
+    height: 64px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 1;
+}
+.box {
+    top: 12px;
+}
+.eyeSightIcon,
+.container :global(.vtex-button__label) {
+    display: none;
+}
+
+.container :global(.vtex-button):hover,
+.container :global(.vtex-button):focus {
+    background-color: unset;
+}
+
+.container :global(.vtex-button)::before {
+    content: "\e91b";
+    font-size: 15px;
+    color: #3E3E3F !important;
+}
+
+.container :global(.vtex-button){
+    margin-inline-start: 7px;
+}
+
+.eyeIcon--invisible::before {
+    content: "\e92b";
+    font-size: 20px;
+}
+
+:global(.vtex-checkbox__inner-container) {
+    border-radius: 0;
+    border-width: 1px;
+    border-color: #3f3f40;
+}
+
+
+.googleOptionBtn :global(.vtex-button__label),
+.facebookOptionBtn :global(.vtex-button__label) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.forgotPasswordLink,
+.dontHaveAccount {
+    text-decoration: underline;
+}
+
+.buttonLink :global(.vtex-button){
+    padding-left: 7px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container{
+        position: relative;
+        top: 1px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .container{
+        position: relative;
+        right: 5px;
+    }
+}

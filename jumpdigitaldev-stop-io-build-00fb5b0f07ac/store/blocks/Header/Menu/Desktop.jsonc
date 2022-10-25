@@ -1,0 +1,206 @@
+{
+    "disposition-layout#menu-order": {
+        "title": "Menú - Orden",
+        "children": [
+            "flex-layout.row#department__1",
+            "flex-layout.row#department__2",
+            "flex-layout.row#department__3",
+            "flex-layout.row#department__4",
+            "flex-layout.row#department__5",
+            "flex-layout.row#department__6",
+            "flex-layout.row#department__7",
+            "flex-layout.row#department__8",
+            "flex-layout.row#department__9"
+        ],
+        "props": {
+            "blockClass": "mega-menu",
+            "disposition": [
+                {
+                    "order": 1
+                },
+                {
+                    "order": 2
+                },
+                {
+                    "order": 3
+                },
+                {
+                    "order": 4
+                },
+                {
+                    "order": 5
+                },
+                {
+                    "order": 6
+                },
+                {
+                    "order": 7
+                },
+                {
+                    "order": 8
+                },
+                {
+                    "order": 9
+                }
+            ]
+        }
+    },
+    "flex-layout.row#department__1": {
+        "title": "Departamento 1",
+        "children": [
+            "disposition-layout#style__select"
+        ],
+        "props": {
+            "blockClass": [
+                "departments"
+            ]
+        }
+    },
+    "flex-layout.row#department__2": {
+        "title": "Departamento 2",
+        "children": [
+            "disposition-layout#style__select"
+        ],
+        "props": {
+            "blockClass": [
+                "departments"
+            ]
+        }
+    },
+    "flex-layout.row#department__3": {
+        "title": "Departamento 3",
+        "children": [
+            "disposition-layout#style__select"
+        ],
+        "props": {
+            "blockClass": [
+                "departments"
+            ]
+        }
+    },
+    "flex-layout.row#department__4": {
+        "title": "Departamento 4",
+        "children": [
+            "disposition-layout#style__select"
+        ],
+        "props": {
+            "blockClass": [
+                "departments"
+            ]
+        }
+    },
+    "flex-layout.row#department__5": {
+        "title": "Departamento 5",
+        "children": [
+            "disposition-layout#style__select"
+        ],
+        "props": {
+            "blockClass": [
+                "departments"
+            ]
+        }
+    },
+    "flex-layout.row#department__6": {
+        "title": "Departamento 6",
+        "children": [
+            "disposition-layout#style__select"
+        ],
+        "props": {
+            "blockClass": [
+                "departments"
+            ]
+        }
+    },
+    "flex-layout.row#department__7": {
+        "title": "Departamento 7",
+        "children": [
+            "disposition-layout#style__select"
+        ],
+        "props": {
+            "blockClass": [
+                "departments"
+            ]
+        }
+    },
+    "flex-layout.row#department__8": {
+        "title": "Departamento 8",
+        "children": [
+            "disposition-layout#style__select"
+        ],
+        "props": {
+            "blockClass": [
+                "departments"
+            ]
+        }
+    },
+    "flex-layout.row#department__9": {
+        "title": "Departamento 9",
+        "children": [
+            "disposition-layout#style__select"
+        ],
+        "props": {
+            "blockClass": [
+                "departments"
+            ]
+        }
+    },
+    "disposition-layout#style__select": {
+        "title": "Seleccion de estilo",
+        "children": [
+            "menu-item#megaMenu-1",
+            "menu-item#megaMenu-2"
+        ],
+        "props": {
+            "blockClass": "mega-menu",
+            "disposition": [
+                {
+                    "order": 1
+                },
+                {
+                    "order": 2
+                }
+            ]
+        }
+    },
+    "menu-item#megaMenu-1": {
+        "title": "Config. estilo 1",
+        "props": {
+            "blockClass": [
+                "departamer__main",
+                "departament__main-style-1"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Estilo 1",
+                "text": "Estilo 1"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#desktop-menu-1"
+        ]
+    },
+    "menu-item#megaMenu-2": {
+        "title": "Config. estilo 2",
+        "props": {
+            "blockClass": [
+                "departamer__main"
+            ],
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Estilo 2",
+                "text": "Estilo 2"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#desktop-menu-2"
+        ]
+    }
+}

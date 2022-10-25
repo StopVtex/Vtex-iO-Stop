@@ -1,0 +1,126 @@
+{
+    "slider-layout#header-top": {
+        "title": "Top Promocional",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "blockClass": "slider__header__top"
+        },
+        "children": [
+            "sandbox#promo__1",
+            "sandbox#promo__2",
+            "sandbox#promo__3"
+        ]
+    },
+    "sandbox#promo__1": {
+        "title": "Texto 1",
+        "props": {
+            "width": "100%",
+            "initialContent": ""
+        }
+    },
+    "sandbox#promo__2": {
+        "title": "Texto 2",
+        "props": {
+            "width": "100%",
+            "height": "auto",
+            "initialContent": ""
+        }
+    },
+    "sandbox#promo__3": {
+        "title": "Texto 3",
+        "props": {
+            "width": "100%",
+            "height": "auto",
+            "initialContent": ""
+        }
+    },
+    "logo": {
+        "title": "Logo",
+        "props": {
+            "url": "https://jumpdigital.vtexassets.com/assets/vtex.file-manager-graphql/images/24199bbf-642d-4344-8596-a6c2b3a01169___b6ef35fcb776be9dc3b149d11bdc66f8.png",
+            "href": "/",
+            "color": "",
+            "showLabel": "",
+            "height": "",
+            "mobileWidth": "",
+            "mobileHeight": "",
+            "blockClass": "header"
+        }
+    },
+    "search-bar": {
+        "title": "Búsqueda",
+        "blocks": [
+            "autocomplete-result-list.v2"
+        ],
+        "props": {
+            "openAutocompleteOnFocus": false,
+            "autoFocus": false,
+            "maxWidth": 230,
+            "minSearchTermLength": 3,
+            "inputType": "text",
+            "placeholder": "Buscar"
+        }
+    },
+    "autocomplete-result-list.v2": {
+        "title": "Búsqueda autocompletar",
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "props": {
+            "maxTopSearches": 10,
+            "maxHistory": 10,
+            "maxSuggestedProducts": 3,
+            "maxSuggestedTerms": 3,
+            "autocompleteWidth": 100,
+            "productLayout": "VERTICAL",
+            "hideTitles": false,
+            "historyFirst": false,
+            "__unstableProductOriginVtex": false,
+            "simulationBehavior": "default"
+        }
+    },
+    "rich-text#header__wishlist": {
+        "title": "Wishlist",
+        "props": {
+            "blockClass": "header__wishlist",
+            "text": "[](/account#/wishlist)"
+        }
+    },
+    "login": {
+        "title": "Login",
+        "props": {
+            "label":false,
+            "hideIconLabel":false,
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "placeholder": "",
+            "optionsTitle": "¿Cómo prefieres ingresar?",
+            "showIconProfile": false,
+            "hasGoogleOneTap": true
+        }
+    },
+    "image#whatsapp-fixed-button": {
+            "props": {
+                "src": "https://stopjeans.vteximg.com.br/arquivos/WhatsApp6.svg",
+                "blockClass":"whatsapp-fixed-button",
+                "link": {
+                    "url": "https://api.whatsapp.com/send?phone=573176392315",
+                    "newTab": true
+                    }
+        }
+    }
+}

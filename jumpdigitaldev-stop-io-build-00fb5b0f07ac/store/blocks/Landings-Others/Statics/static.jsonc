@@ -1,0 +1,18 @@
+{
+    "store.custom#static":{
+        "title": "Estática",
+        "children": [
+            "flex-layout.row#static-main-row",
+            "html-content#videos"
+        ]
+    },
+    "flex-layout.row#static-main-row": {
+        "title": "Estática",
+        "children": [
+            "rich-text#static-content"        
+        ],
+        "props": {
+            "blockClass": "static-main-conainer-row"
+        }
+    }
+}

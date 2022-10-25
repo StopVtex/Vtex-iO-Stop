@@ -1,0 +1,725 @@
+.imageElement--banner_medium {
+    margin-top: 50px;
+}
+
+.skuSelectorSubcontainer--color .skuSelectorItem--selected .frameAround {
+    border: 2px solid #d2d2d2;
+    border-radius: 5px;
+    width: 29px;
+    height: 29px;
+    top: -2px;
+}
+
+.searchBarInnerContainer--filled::after {
+    content: "";
+    width: 100%;
+    height: 64px;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.logoLink--header::before {
+    font-family: "Icon";
+    content: "\e929";
+    font-size: 39px;
+    color: #3E3E3F;
+}
+
+.imageElement--whatsapp-fixed-button {
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    z-index: 1000;
+    width: 40px;
+}
+
+.logoContainer--header {
+    display: none;
+}
+
+.logoLink--header {
+    text-decoration: none;
+}
+
+.productImagesGallerySlide {
+    width: 100% !important;
+    margin: 0 auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--pdp-details) .skuSelectorInternalBox {
+    border-radius: 2px;
+    width: 21px;
+    height: 21px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--pdp-details) .skuSelectorItem {
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.searchIcon,
+.caretIcon {
+    display: none;
+}
+
+.infoCardHeadline--info-card-home-1 {
+    color: #fff;
+    font-family: "Quicksand-Bold";
+    font-size: 29px;
+    line-height: 39.2px;
+    text-align: left;
+}
+
+.infoCardCallActionContainer--info-card-home-1 :global(.vtex-button) {
+    background-color: #EE1D23;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: "Quicksand-Bold";
+    color: #fff;
+    border-color: #EE1D23;
+}
+
+.infoCardCallActionContainer--info-card-home-1 :global(.vtex-button):hover {
+    background-color: #DA1A20;
+    border-color: #DA1A20;
+}
+
+.infoCardCallActionContainer--info-card-home-1 :global(.vtex-button__label) {
+    padding: 11px 42px !important;
+}
+
+.infoCardTextContainer--info-card-home-2 {
+    margin-left: 7.5rem;
+    margin-bottom: 7.5rem;
+}
+
+.infoCardContainer--info-card-home-1 {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    display: flex;
+    margin-inline: auto;
+    background-size: contain !important;
+    border: none;
+}
+
+.skuSelectorTextContainer {
+    display: none;
+}
+
+.discountInsideContainer {
+    z-index: 3;
+    padding: 5px 5px 5px;
+    top: 10px;
+    left: 0;
+    width: 50px;
+    background-color: #2617F2;
+    border-radius: 0 2px 2px 0;
+}
+
+.imageElementLink {
+    color: #000;
+}
+
+.logoImage {
+    height: auto;
+    max-height: 40px;
+}
+
+
+
+.logoContainer {
+    padding: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--header__2) .logoLink--header {
+    position: absolute;
+    left: 45%;
+    right: 45%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--header__2) .logoContainer--header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--logo__social__media) .logoImage {
+    width: auto;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+    border-radius: 0;
+    border: none;
+}
+
+:global(.vtex-product-summary-2-x-element) .skuSelectorSubcontainer--talla {
+    background: #FFFFFFCC;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+}
+
+:global(.vtex-product-summary-2-x-element):hover .skuSelectorSubcontainer--talla {
+    transition: all 0.2s;
+    opacity: 1;
+    bottom: 102%;
+    z-index: 5;
+}
+
+.skuSelectorContainer .skuSelectorSubcontainer--talla .skuSelectorOptionsList {
+    justify-content: center;
+}
+
+/* .skuSelectorContainer .skuSelectorSubcontainer:first-child .skuSelectorOptionsList .skuSelectorInternalBox, */
+.skuSelectorContainer .skuSelectorSubcontainer:first-child .skuSelectorOptionsList .skuSelectorInternalBox .skuSelectorItemTextValue {
+    /* background-color: transparent ; */
+    border-radius: 2px;
+    border-color: transparent;
+}
+
+.skuSelectorContainer .skuSelectorSubcontainer:first-child .skuSelectorOptionsList .skuSelectorItem--selected .skuSelectorInternalBox,
+.skuSelectorContainer .skuSelectorSubcontainer:first-child .skuSelectorOptionsList .skuSelectorItem--selected .skuSelectorInternalBox .skuSelectorItemTextValue {
+    background-color: #3E3E3F !important;
+    border-color: #3E3E3F !important;
+    color: #fff !important;
+
+}
+
+.skuSelectorContainer .skuSelectorSubcontainer:first-child .skuSelectorOptionsList .skuSelectorInternalBox .skuSelectorItemTextValue {
+    background-color: transparent;
+    color: #3E3E3F;
+}
+
+.skuSelectorContainer .skuSelectorSubcontainer:first-child .skuSelectorItem--selected {
+    border: none;
+}
+
+:global(.vtex-product-summary-2-x-element) .skuSelectorOptionsList {
+    justify-content: flex-start;
+}
+
+.skuSelectorSubcontainer--color {
+    margin-bottom: 0;
+}
+
+:global(.vtex-product-summary-2-x-element) .skuSelectorSubcontainer--talla .skuSelectorName::before {
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.skuSelectorSubcontainer--talla .skuSelectorNameContainer .skuSelectorOptionsList .skuSelectorItem,
+.skuSelectorSubcontainer--color .skuSelectorNameContainer .skuSelectorOptionsList .skuSelectorItem {
+    height: 35px;
+    width: 35px;
+}
+
+.skuSelectorSubcontainer .skuSelectorNameContainer .skuSelectorOptionsList .skuSelectorItem .skuSelectorInternalBox .skuSelectorItemTextValue {
+    font-size: 13px;
+    letter-spacing: 0px;
+    padding: 0;
+    margin: auto;
+    font-weight: bold;
+}
+
+.skuSelectorItemTextValue {
+    font-size: 11px !important;
+}
+
+.productDescriptionContainer {
+    margin: 16px auto 15px;
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 20px;
+}
+
+.skuSelectorInternalBox {
+    border-radius: 3px;
+}
+
+.productDescriptionContainer .productDescriptionText .container .content {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+
+.imageElement--img-tallas {
+    max-height: inherit !important;
+    height: auto;
+}
+
+.productImagesThumbActive {
+    border: 1px solid #3E3E3F;
+    border-radius: 2px;
+}
+
+.productImageTag--main {
+    max-height: unset !important;
+}
+
+.discountContainer {
+    height: 100%;
+}
+
+.headerRowContainer--header__components__mobile .searchBarContainer {
+    margin: 0;
+}
+
+:global(.vtex-store-header-2-x-headerRowContainer--header__componentes) .searchBarContainer {
+    margin: 0 10px;
+    max-width: 280px !important;
+}
+
+
+
+.imageElementLink--logo__vtex,
+.imageElementLink--logo__jump {
+    text-decoration: none;
+}
+
+.backToTopButtonContainer :global(.vtex-button) {
+    width: 60px;
+    height: 60px;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #e5e5e5;
+    border-radius: 1px;
+}
+
+.backToTopButtonContainer :global(.vtex-button__label) {
+    width: 0;
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+.imageElementLink--carousel__home {
+    width: 100%;
+}
+
+.imageElementLink--button__whatsapp::after {
+    content: "Lorem ipsum dolor sit amet";
+    font-size: 11.24px;
+    text-decoration: underline;
+}
+
+.imageElementLink--button__whatsapp {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageElementLink--button__whatsapp:hover {
+    transition: all 0.3s;
+    opacity: 0.6;
+}
+
+.imageElement--button__whatsapp__pnf::after {
+    content: "Escríbenos a WhatsApp";
+    font-size: 11.24px;
+    text-decoration: underline;
+}
+
+.imageElementLink--button__whatsapp__pnf {
+    text-decoration: none;
+}
+
+.backToTopButtonActive {
+    right: 0 !important;
+}
+
+.imageElement--images__gallery__home {
+    max-height: unset !important;
+    height: 100%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--row__logo_social__media) .logoContainer :global(.vtex-store-components-3-x-logoImage) {
+    height: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--logo__social__media) .sizeDesktop :global(.vtex-store-components-3-x-logoImage) {
+    height: auto;
+}
+
+.searchBarInnerContainer {
+    border: 1px solid #3E3E3F;
+    border-radius: 3px;
+}
+
+.infoCardTextContainer--info-card-home-1 {
+    height: 567px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.infoCardTextContainer--info-card-home-2 {
+    justify-content: flex-end;
+}
+
+.infoCardCallActionContainer--info-card-home-1 {
+    text-decoration: none;
+}
+
+.infoCardCallActionContainer--info-card-home-2 :global(.vtex-button) {
+    background-color: #466594;
+    border-color: #466594;
+}
+
+.infoCardCallActionContainer--info-card-home-2 :global(.vtex-button):hover {
+    background-color: #32496a;
+    border-color: #32496a;
+}
+
+.productImagesGallerySwiperContainer .swiperCaretNext::before,
+.productImagesGallerySwiperContainer .swiperCaretPrev::before {
+    color: #C5C6C8 !important;
+    font-size: 25px;
+}
+
+.productNameContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.productNameContainer .productBrand {
+    font-size: 20.28px;
+    line-height: 28px;
+    font-weight: bold;
+    color: #646464;
+}
+
+.backToTopButtonContainer :global(.vtex-button):hover,
+.backToTopButtonContainer :global(.vtex-button) {
+    background-color: #fff;
+}
+
+.productDescriptionText {
+    color: #262626;
+}
+
+.skuSelectorSubcontainer--color .skuSelectorNameContainer,
+.skuSelectorSubcontainer--talla .skuSelectorNameContainer {
+    position: relative;
+    left: -10px;
+    margin-bottom: 0;
+}
+
+.skuSelectorSubcontainer--lin_variation-required {
+    display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--content__imagenes) .imageElement {
+    width: 300px;
+    height: 300px;
+    max-width: unset;
+}
+
+.imageElement--static-image {
+    object-fit: contain;
+}
+
+.skuSelectorSubcontainer--color .skuSelectorInternalBox {
+    border: 1px solid #00000040
+}
+
+@media screen and (max-width: 1024px) {
+    .imageElement--banner_medium {
+        margin-top: 80px;
+    }
+
+    .skuSelectorSubcontainer--color .skuSelectorItem--selected .frameAround,
+    :global(.vtex-flex-layout-0-x-flexColChild--info__shelf) .frameAround {
+        border: none;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--info__shelf) .skuSelectorInternalBox {
+        width: 20px;
+        height: 20px;
+    }
+
+    .productNameContainer {
+        margin: 0 auto;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--info__shelf) .skuSelectorSubcontainer--talla {
+        display: none;
+    }
+
+    .skuSelectorSubcontainer--color .skuSelectorNameContainer .skuSelectorOptionsList .skuSelectorItem {
+        left: 3px;
+    }
+
+    .productImageTag--main {
+        width: 79% !important;
+        display: flex !important;
+        height: auto !important;
+        border: 1px solid #F5F5F5 !important;
+        margin: 10px auto 0;
+    }
+
+    .skuSelectorSubcontainer--talla .skuSelectorOptionsList {
+        margin-left: 7px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--pdp-details) .skuSelectorSubcontainer--talla {
+        margin-inline-start: 0;
+        margin-block-start: 0;
+    }
+
+    .productNameContainer {
+        padding-inline: 20px;
+    }
+
+    .logoContainer--header {
+        display: none !important;
+    }
+
+    .logoLink--header {
+        text-decoration: none;
+    }
+
+    .logoLink--header::before {
+        font-size: 29px;
+    }
+
+    .infoCardContainer--info-card-home-1 {
+        min-height: 166px;
+        margin-top: 60px;
+        background-size: contain !important;
+    }
+
+    .infoCardTextContainer--info-card-home-1 {
+        padding-inline: 30px;
+        margin-bottom: 3.5rem;
+        height: 404px;
+    }
+
+    .infoCardCallActionContainer--info-card-home-2 {
+        margin-left: 0;
+        margin-bottom: 3.5rem;
+        justify-content: center !important;
+    }
+
+    .infoCardTextContainer--info-card-home-2 {
+        margin-left: 0.75rem;
+        justify-content: flex-end;
+    }
+
+    .infoCardHeadline--info-card-home-1 {
+        font-size: 20.25px;
+        line-height: 23px;
+    }
+
+    .infoCardHeadline--info-card-home-2 {
+        text-align: center;
+    }
+
+    .infoCardCallActionContainer--info-card-home-1 {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .logoContainer--header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logoLink--header {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    :global(.vtex-store-footer-2-x-footerLayout) .sizeMobile {
+        max-height: unset;
+        max-width: 45%;
+    }
+
+    :global(.vtex-store-footer-2-x-footerLayout) .logoLink {
+        justify-content: center;
+        display: flex;
+        margin: 20px 0;
+    }
+
+    :global(.vtex-store-footer-2-x-footerLayout) .logoImage {
+        max-height: unset;
+        width: 100%;
+    }
+
+    .logoImage {
+        max-height: 30px;
+    }
+
+    .imageElement--image__menu__mobile {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .backToTopButtonContainer :global(.vtex-button__label) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    :global(.vtex-product-summary-2-x-element) .skuSelectorSubcontainer--talla {
+        background: #FFFFFFCC !important;
+    }
+
+    .skuSelectorNameContainer {
+        margin: 0;
+    }
+
+    .backToTopButtonContainer :global(.vtex-button__label)::after {
+        font-size: 30px;
+    }
+
+    .backToTopButtonContainer :global(.vtex-button) {
+        width: 45px;
+        height: 45px;
+    }
+
+    :global(.vtex-store-header-2-x-headerRowContainer--header__componentes__mobile) .searchBarContainer {
+        margin: 0 10px;
+    }
+
+    .searchBarInnerContainer {
+        border: none;
+    }
+
+    .searchBarInnerContainer--opened,
+    .searchBarInnerContainer {
+        border-bottom: 1px solid #C5C6C8;
+    }
+
+    .portalContainer {
+        top: 2px !important;
+    }
+
+    .searchBarInnerContainer :global(.vtex-input-prefix__group) {
+        border: none !important;
+        border-radius: 3px;
+    }
+
+    :global(.vtex-product-summary-2-x-element) .skuSelectorSubcontainer--talla {
+        opacity: 1;
+        bottom: 102%;
+    }
+
+    .skuSelectorSubcontainer--color .skuSelectorNameContainer .skuSelectorTextContainer .skuSelectorName::before {
+        display: none;
+    }
+
+    .swiperPaginationClickable {
+        display: block;
+    }
+
+    .skuSelectorSubcontainer .skuSelectorNameContainer {
+        margin-top: 0;
+    }
+
+    :global(.vtex-product-summary-2-x-skuSelectorContainer) .skuSelectorSubcontainer .skuSelectorNameContainer .skuSelectorTextContainer {
+        margin-bottom: 0;
+    }
+
+    .skuSelectorSubcontainer .skuSelectorNameContainer .skuSelectorTextContainer {
+        text-align: center;
+    }
+
+    .skuSelectorOptionsList {
+        justify-content: center;
+    }
+
+    .skuSelectorSubcontainer--talla {
+        margin: 20px auto;
+    }
+
+    .productDescriptionContainer {
+        margin: 10px auto 20px;
+    }
+
+    .swiperPaginationClickable {
+        position: relative;
+        bottom: 0px !important;
+    }
+
+    .swiperBullet--active {
+        color: #3D3D3D !important;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+
+    :global(.vtex-flex-layout-0-x-flexColChild--info__shelf) .skuSelectorItem--selected .frameAround {
+        width: 31px;
+        height: 31px;
+        top: 2px;
+        left: 2px;
+    }
+    
+    :global(.vtex-flex-layout-0-x-flexColChild--Imagenes) .imageElement {
+        display: flex;
+    }
+
+    .carouselGaleryCursor {
+        width: 80%;
+        margin-left: auto;
+        padding-left: 23px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--header__2) .searchBarContainer {
+        max-width: 250px !important;
+    }
+
+    .productImageTag--main {
+        border: 1px solid #F5F5F5 !important;
+        width: 99% !important;
+    }
+
+    .autoCompleteOuterContainer :global(.vtex-input-prefix__group):hover .searchBarIcon--search::before {
+        transition: all 0.3s;
+        border: none;
+    }
+
+    .logoLink--header {
+        margin-right: 30px;
+    }
+
+    .searchBarContainer :global(.vtex-input__suffix) {
+        background-color: transparent;
+    }
+
+    .swiperPaginationClickable {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 425px) {
+    .infoCardTextContainer--info-card-home-1 {
+        height: 445px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .infoCardTextContainer--info-card-home-1 {
+        height: 850px;
+    }
+}
+
+@media screen and (min-width: 1345px) {
+    .infoCardTextContainer--info-card-home-1 {
+        height: 711px;
+    }
+}
+
+@media screen and (min-width: 1684px) {
+    .infoCardTextContainer--info-card-home-1 {
+        height: 811px;
+    }
+}

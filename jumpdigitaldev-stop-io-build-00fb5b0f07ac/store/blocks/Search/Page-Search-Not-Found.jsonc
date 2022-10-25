@@ -1,0 +1,48 @@
+{
+    "search-not-found-layout": {
+        "title": "Error - Página Vacía",
+        "props": {
+            "blockClass": "page__not__found"
+        },
+        "children": [
+            "list-context.image-list#banner-not-found",
+            "rich-text#title-page-empty",
+            "flex-layout.row#buttons-categorys",
+            "rich-text#title-shelf-home-1",
+            "list-context.product-list#home__shelf-1"
+        ]
+    },
+    "rich-text#title-page-empty": {
+        "title": "Título",
+        "props": {
+            "blockClass": ["title__page__empty","not-found-text"],
+            "text": ""
+        }
+    },
+    "image#button-whatsapp": {
+        "props": {
+            "blockClass": "button__whatsapp__pnf",
+            "src": "",
+            "link": {
+                "url": "https://wa.me/573508629123/",
+                "newTab": true
+            }
+        }
+    },
+    "flex-layout.row#buttons-categorys": {
+        "title": "Contenedor Botones",
+        "props": {
+            "blockClass": "content__buttons__category__pnf"
+        },
+        "children": [
+            "rich-text#button-back-category-1"
+        ]
+    },
+    "rich-text#button-back-category-1": {
+        "title": "Botón Categoría 1",
+        "props": {
+            "blockClass": "button__back__category",
+            "text": ""
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "store.custom#faqs":{
+        "title": "faqs",
+        "children": [
+            "flex-layout.row#faq-main-row"
+        ]
+    },
+    "flex-layout.row#faq-main-row": {
+        "title": "FAQ",
+        "children": [
+            "flex-layout.col#faq-main-col"        
+        ],
+        "props": {
+            "blockClass": "faq-main-conainer-row"
+        }
+    },
+    "flex-layout.col#faq-main-col": {
+        "title": "Contenido",
+        "children": [
+            "rich-text#statics-title",        
+            "disposition-layout#faq"
+        ],
+        "props": {
+            "blockClass": "faq-main-conainer-col",
+            "preventVerticalStretch": true
+        }
+    },
+    "disposition-layout#faq": {
+        "title": "FAQ - MO",
+        "children": [            
+            "disclosure-layout#statics-1",
+            "disclosure-layout#statics-2",
+            "disclosure-layout#statics-3",
+            "disclosure-layout#statics-4",
+            "disclosure-layout#statics-5",
+            "disclosure-layout#statics-6",
+            "disclosure-layout#statics-7",
+            "disclosure-layout#statics-8",
+            "disclosure-layout#statics-9",
+            "disclosure-layout#statics-10",
+            "disclosure-layout#statics-11",
+            "disclosure-layout#statics-12",
+            "disclosure-layout#statics-13",
+            "disclosure-layout#statics-14",
+            "disclosure-layout#statics-15",
+            "disclosure-layout#statics-16",
+            "disclosure-layout#statics-17"
+        ],
+        "props": {
+            
+            "disposition": [
+                {
+                    "order": 1
+                },
+                {
+                    "order": 2
+                },
+                {
+                    "order": 3
+                },
+                {
+                    "order": 4
+                },
+                {
+                    "order": 5
+                },
+                {
+                    "order": 6
+                },
+                {
+                    "order": 7
+                },
+                {
+                    "order": 8
+                },
+                {
+                    "order": 9
+                },
+                {
+                    "order": 10
+                },
+                {
+                    "order": 11
+                },
+                {
+                    "order": 12
+                },
+                {
+                    "order": 13
+                },
+                {
+                    "order": 14
+                },
+                {
+                    "order": 15
+                },
+                {
+                    "order": 16
+                },
+                {
+                    "order": 17
+                }
+            ]
+        }
+    }
+}

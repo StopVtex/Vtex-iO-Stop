@@ -1,0 +1,326 @@
+{
+    "disclosure-layout#statics-1": {
+        "title": "Desplegable 1",
+        "children": [
+            "disclosure-trigger#statics-disclosure-trigger",
+            "disclosure-content#statics-disclosure-content"
+        ],
+        "props": {
+            "blockClass": "disclosure-statics"
+        }
+    },
+    "disclosure-trigger#statics-disclosure-trigger": {
+        "title": "Pregunta",
+        "children": [
+            "rich-text#faq-disclosure-title",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": ["acordion-pdp-btn", "acordion-statics-btn"]
+        }
+    },
+    "disclosure-content#statics-disclosure-content": {
+        "title":"Contenido",
+        "children": [
+            "rich-text#faq-disclosure-content"
+        ]
+    },
+    "rich-text#faq-disclosure-title": {
+        "title": "Título",
+        "props": {
+            "text": "",
+            "textAlignment": "LEFT",
+            "blockClass": ["statics-disclosures-title"]
+        }
+    },
+    "rich-text#faq-disclosure-content": {
+        "title": "Respuesta",
+        "props": {
+            "text": "",
+            "textAlignment": "LEFT",
+            "blockClass": ["statics-disclosures-content"]
+        }
+    },
+    "disclosure-layout#statics-2": {
+        "title": "Desplegable 2",
+        "children": [
+            "disclosure-trigger#statics-disclosure-trigger",
+            "disclosure-content#statics-disclosure-content"
+        ],
+        "props": {
+            "blockClass": "disclosure-statics"
+        }
+    },
+    "disclosure-layout#statics-3": {
+        "title": "Desplegable 3",
+        "children": [
+            "disclosure-trigger#statics-disclosure-trigger",
+            "disclosure-content#statics-disclosure-content"
+        ],
+        "props": {
+            "blockClass": "disclosure-statics"
+        }
+    },
+    "disclosure-layout#statics-4": {
+        "title": "Desplegable 4",
+        "children": [
+            "disclosure-trigger#statics-disclosure-trigger",
+            "disclosure-content#statics-disclosure-content"
+        ],
+        "props": {
+            "blockClass": "disclosure-statics"
+        }
+    },
+    "disclosure-layout#statics-5": {
+        "title": "Desplegable 5",
+        "children": [
+            "disclosure-trigger#statics-disclosure-trigger",
+            "disclosure-content#statics-disclosure-content"
+        ],
+        "props": {
+            "blockClass": "disclosure-statics"
+        }
+    },
+    "disclosure-layout#statics-6": {
+        "title": "Desplegable 6",
+        "children": [
+            "disclosure-trigger#statics-disclosure-trigger",
+            "disclosure-content#statics-disclosure-content"
+        ],
+        "props": {
+            "blockClass": "disclosure-statics"
+        }
+    },
+    "disclosure-layout#statics-7": {
+        "title": "Desplegable 7",
+        "children": [
+            "disclosure-trigger#statics-disclosure-trigger",
+            "disclosure-content#statics-disclosure-content"
+        ],
+        "props": {
+            "blockClass": "disclosure-statics"
+        }
+    },
+    "disclosure-layout#statics-8": {
+        "title": "Desplegable 8",
+        "children": [
+            "disclosure-trigger#statics-disclosure-trigger",
+            "disclosure-content#statics-disclosure-content"
+        ],
+        "props": {
+            "blockClass": "disclosure-statics"
+        }
+    },
+    "disclosure-layout#statics-9": {
+        "title": "Desplegable 9",
+        "children": [
+            "disclosure-trigger#statics-disclosure-trigger",
+            "disclosure-content#statics-disclosure-content"
+        ],
+        "props": {
+            "blockClass": "disclosure-statics"
+        }
+    },
+    "disclosure-layout#statics-10": {
+        "title": "Desplegable 10",
+        "children": [
+            "disclosure-trigger#statics-disclosure-trigger",
+            "disclosure-content#statics-disclosure-content"
+        ],
+        "props": {
+            "blockClass": "disclosure-statics"
+        }
+    },
+    "disclosure-layout#statics-11": {
+        "title": "Desplegable 11",
+        "children": [
+            "disclosure-trigger#statics-disclosure-trigger",
+            "disclosure-content#statics-disclosure-content"
+        ],
+        "props": {
+            "blockClass": "disclosure-statics"
+        }
+    },
+    "disclosure-layout#statics-12": {
+        "title": "Desplegable 12",
+        "children": [
+            "disclosure-trigger#statics-disclosure-trigger",
+            "disclosure-content#statics-disclosure-content"
+        ],
+        "props": {
+            "blockClass": "disclosure-statics"
+        }
+    },
+    "disclosure-layout#statics-13": {
+        "title": "Desplegable 13",
+        "children": [
+            "disclosure-trigger#statics-disclosure-trigger",
+            "disclosure-content#statics-disclosure-content"
+        ],
+        "props": {
+            "blockClass": "disclosure-statics"
+        }
+    },
+    "disclosure-layout#statics-14": {
+        "title": "Desplegable 14",
+        "children": [
+            "disclosure-trigger#statics-disclosure-trigger",
+            "disclosure-content#statics-disclosure-content"
+        ],
+        "props": {
+            "blockClass": "disclosure-statics"
+        }
+    },
+    "disclosure-layout#statics-15": {
+        "title": "Desplegable 15",
+        "children": [
+            "disclosure-trigger#statics-disclosure-trigger",
+            "disclosure-content#statics-disclosure-content"
+        ],
+        "props": {
+            "blockClass": "disclosure-statics"
+        }
+    },
+    "disclosure-layout#statics-16": {
+        "title": "Desplegable 16",
+        "children": [
+            "disclosure-trigger#statics-disclosure-trigger",
+            "disclosure-content#statics-disclosure-content"
+        ],
+        "props": {
+            "blockClass": "disclosure-statics"
+        }
+    },
+    "disclosure-layout#statics-17": {
+        "title": "Desplegable 17",
+        "children": [
+            "disclosure-trigger#statics-disclosure-trigger",
+            "disclosure-content#statics-disclosure-content"
+        ],
+        "props": {
+            "blockClass": "disclosure-statics"
+        }
+    },
+    "rich-text#statics-title": {
+        "title": "Título",
+        "props": {
+            "text": "",
+            "blockClass":["statics-title"],
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"    
+        }
+    },
+    "image#static-image":{
+        "title":"Imagen",
+        "props": {
+            "blockClass":["static-image"],
+            "src": ""
+        }
+    },
+    "rich-text#static-content":{
+        "title":"Texto",
+        "props": {
+            "blockClass":["static-text"],
+            "text": "",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        }
+    },
+    "rich-text#statics-subtitle":{
+        "title": "Subtitulo 1",
+        "props": {
+            "text": "",
+            "blockClass":["statics-title", "statics-subtitle"],
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"    
+        }
+    }
+    ,
+    "rich-text#statics-subtitle-2":{
+        "title": "Subtitulo 2",
+        "props": {
+            "text": "",
+            "blockClass":["statics-title", "statics-subtitle"],
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"    
+        }
+    }
+    ,
+    "rich-text#statics-subtitle-3":{
+        "title": "Subtitulo 3",
+        "props": {
+            "text": "",
+            "blockClass":["statics-title", "statics-subtitle"],
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"    
+        }
+    }
+    ,
+    "rich-text#statics-subtitle-4":{
+        "title": "Subtitulo 4",
+        "props": {
+            "text": "",
+            "blockClass":["statics-title", "statics-subtitle"],
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"    
+        }
+    }
+    ,
+    "rich-text#statics-subtitle-5":{
+        "title": "Subtitulo 5",
+        "props": {
+            "text": "",
+            "blockClass":["statics-title", "statics-subtitle"],
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"    
+        }
+    }
+    ,
+    "rich-text#statics-subtitle-6":{
+        "title": "Subtitulo 6",
+        "props": {
+            "text": "",
+            "blockClass":["statics-title", "statics-subtitle"],
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"    
+        }
+    }
+    ,
+    "rich-text#statics-subtitle-7":{
+        "title": "Subtitulo 7",
+        "props": {
+            "text": "",
+            "blockClass":["statics-title", "statics-subtitle"],
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"    
+        }
+    }
+    ,
+    "rich-text#statics-subtitle-8":{
+        "title": "Subtitulo 8",
+        "props": {
+            "text": "",
+            "blockClass":["statics-title", "statics-subtitle"],
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"    
+        }
+    },
+    "rich-text#statics-subtitle-9":{
+        "title": "Subtitulo 9",
+        "props": {
+            "text": "",
+            "blockClass":["statics-title", "statics-subtitle"],
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"    
+        }
+    },
+    "rich-text#statics-subtitle-10":{
+        "title": "Subtitulo 10",
+        "props": {
+            "text": "",
+            "blockClass":["statics-title", "statics-subtitle"],
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"    
+        }
+    }
+}

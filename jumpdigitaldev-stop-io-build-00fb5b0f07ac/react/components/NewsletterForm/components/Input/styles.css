@@ -1,0 +1,45 @@
+.containerInputElement {
+}
+.inputElement {
+  
+  height: 100%;
+  width: 100%;
+  outline: 0;
+  border: solid 1px #353535;
+  font-style: initial;
+  padding-left: 10px;
+  height: 42px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #353535;
+}
+.labelName {
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #353535;
+  font-weight: 600;
+  min-height: 20px;
+  text-transform: uppercase;
+}
+.labelError {
+  font-size: 14px;
+  color: red;
+  max-height: 0;
+  font-style: italic;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+.showError {
+  margin-top: 5px;
+  max-height: 50px;
+}
+@media only screen and (min-width: 768px) {
+  .labelName {
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    text-align: start;
+    font-weight: 400;
+    text-transform: unset;
+  }
+}

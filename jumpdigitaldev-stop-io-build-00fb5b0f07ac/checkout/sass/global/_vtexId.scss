@@ -1,0 +1,297 @@
+/* Login Modal on Checkout */
+body {
+    #vtexIdUI-global-loader {
+        // @extend .brand-loader;
+        background: rgba(0, 0, 0, 0.4) !important;
+        @include transition(all $fast ease-in);
+    }
+
+    #vtexIdContainer {
+        .vtexIdUI-show-app,
+        .vtexIdUI {
+            box-shadow: none;
+            background: $white;
+            border: 0;
+            border-radius: 0;
+
+            width: 100%;
+            max-width: 600px;
+            left: 50% !important;
+            margin-left: auto;
+            top: inherit !important;
+            transform: translateX(-50%) !important;
+            *,
+            .muted {
+            }
+            * {
+            }
+            .fa {
+                font-family: "FontAwesome" !important;
+            }
+            [class*="vtexid-ico-"] {
+                font-family: "icofont";
+            }
+
+            .vtexid-ico-arrow-left {
+                &:before {
+                    content: $ico-chevron-left;
+                }
+            }
+
+            a,
+            input,
+            .vtexId-link {
+                color: $black;
+            }
+
+            h4 {
+                margin: 0;
+                line-height: 1;
+                margin-bottom: 10px;
+                font-size: 18px;
+            }
+
+            // .btn:hover,
+            // .btn:focus,
+            // .btn:active,
+            // .btn.active,
+            // .btn.disabled,
+            // .btn[disabled]{
+            //     background: $primary;
+            //     color: #fff;
+            // }
+
+            .btn-block,
+            .btn-large,
+            .btn-success,
+            #classicLoginBtn,
+            #sendAccessKeyBtn,
+            #confirmLoginAccessKeyBtn {
+                @extend .cta;
+                line-height: 1;
+                max-width: 100%;
+                font-size: inherit;
+                span {
+                    // font-size: 15px;
+                }
+            }
+
+            input[type="text"],
+            input[type="password"],
+            input[type="email"] {
+                border: 0;
+                border-bottom: 1px solid currentColor;
+                border-radius: 0;
+                box-shadow: none;
+                &:focus {
+                    background: #fff !important;
+                    color: $black !important;
+                }
+            }
+
+            .vtexIdUI-auth-code input {
+                // font-size: 30px !important;height: 45px !important; margin-top: 15px !important; border-radius: 3px !important;padding: 0 10px !important;line-height: 1 !important;text-align: center !important;margin-bottom: 2px !important;
+                @extend .regularFont;
+                font-size: 16px;
+                line-height: 1;
+            }
+
+            label {
+                font-size: inherit;
+            }
+
+            .vtexIdUI-loading-modal {
+                @extend .loader;
+            }
+            .vtexIdUI-loading {
+                background: #fff;
+            }
+
+            .vtexIdUI-page {
+            }
+
+            .modal-header {
+                background: #fff;
+                border-bottom: 0;
+                padding-top: 25px;
+                padding-right: 40px;
+                .close {
+                    color: $black;
+                    display: block !important;
+                    background: $white;
+                    right: 10px;
+                    font-size: 25px;
+                    top: 25px;
+                }
+            }
+
+            .modal-body {
+                color: $black;
+                background: #fff;
+            }
+
+            .vtexIdUI-heading {
+                font-size: 18px;
+                text-transform: uppercase;
+                letter-spacing: 0;
+                font-weight: 900;
+                margin: 0;
+                margin-bottom: 10px;
+                color: black;
+            } //vtexIdUI-heading
+
+            .vtexIdUI-providers-list {
+                li {
+                    margin-bottom: 0;
+                    margin-top: 15px;
+                    &:first-child {
+                        margin-top: 0;
+                    }
+                }
+                .btn {
+                    i {
+                        font-size: 25px;
+                        position: absolute;
+                        top: initial;
+                        opacity: 0.6;
+                        right: initial;
+                        left: 10px;
+                    }
+                }
+                .vtexIdUI-send-email {
+                    .vtexid-ico-mail {
+                        &:before {
+                            content: $ico-mail;
+                        }
+                    }
+                }
+
+                #confirmLoginAccessKeyBtn {
+                }
+
+                #loginWithUserAndPasswordBtn {
+                }
+
+                #vtexIdUI-facebook {
+                    .vtexIdUI-providers-i:before {
+                        content: $ico-facebook !important;
+                        font-family: "icofont" !important;
+                    }
+                }
+                #vtexIdUI-google-plus {
+                    .vtexIdUI-providers-i {
+                        font-size: 12px !important;
+                        position: absolute;
+                        top: 50% !important;
+                        transform: translateY(-50%) !important;
+                        right: 10px !important;
+                        opacity: 1 !important;
+                        color: #fff !important;
+                        &:before {
+                            content: $ico-google !important;
+                            font-family: "icofont" !important;
+                        }
+                        &:hover {
+                            background: $black !important;
+                            opacity: 0.9 !important;
+                        }
+                    }
+                }
+            }
+
+            [data-i18n="vtexid.selectAuthOption"] {
+                @include replaceTextCSS("Confirma tu identidad", 18px);
+            }
+
+            [data-i18n="vtexid.getEmailTitle"] {
+                @include replaceTextCSS("Por favor, escribe tu e-mail", 18px);
+            }
+
+            [data-i18n="vtexid.getEmailAccessToken"] {
+                @include replaceTextCSS("Recibir código de acceso por e-mail");
+            }
+
+            [data-i18n="vtexid.classicAuthText"] {
+                @include replaceTextCSS("Ingresar tu e-mail y contraseña");
+            }
+            span[data-i18n="vtexid.email"] {
+                @include replaceTextCSS("Escribe tu e-mail");
+            }
+
+            [data-i18n="vtexid.forgotPswd"] {
+                @include replaceTextCSS("¿Olvidaste tu contraseña? Recupérala aquí.");
+            }
+
+            [data-i18n="vtexid.forgotPswdHelper"] {
+                @include replaceTextCSS("¿No te acuerdas cuál? Regístrala ahora.");
+            }
+
+            [data-i18n="vtexid.threeWrongPswds"] {
+                @include replaceTextCSS(
+                    "Has introducido una contraseña incorrecta tres veces. Si vuelves a introducir una contraseña incorrecta más, vamos a tener que bloquear tu usuario durante una hora. Para evitar esto, te recomendamos cambiarla."
+                );
+            }
+
+            [data-i18n="vtexid.confirmChangePswdText"] {
+                @include replaceTextCSS("Te enviaremos una clave de seguridad a tu correo.");
+            }
+
+            [data-i18n="vtexid.passwordRequirements"] {
+                @include replaceTextCSS("Recomendamos que tu nueva contraseña tenga:");
+            }
+
+            .modal-footer {
+                background: transparent !important;
+                border: none !important;
+                box-shadow: none !important;
+                a {
+                    color: $black !important;
+                    text-shadow: none !important;
+                }
+            }
+            .vtexid-ico-lock.bottom-icon {
+                display: none;
+            }
+        } //.vtexIdUI
+    } //#vtexIdContainer
+} //body
+
+.vtexId-modal-app {
+    border: none !important;
+    box-shadow: none !important;
+}
+.vtex-modal-backdrop {
+    background-color: $black !important;
+}
+
+#vtexIdContainer .vtexIdUI .btn.btn-success,
+#vtexIdContainer
+    .vtexIdUI
+    .orderform-template-holder
+    #payment-data
+    .payment-discounts-list
+    table
+    td.action
+    a.btn-success,
+.orderform-template-holder
+    #payment-data
+    .payment-discounts-list
+    table
+    td.action
+    #vtexIdContainer
+    .vtexIdUI
+    a.btn-success,
+#vtexIdContainer .vtexIdUI .summary-template-holder .summary-coupon fieldset.coupon-fieldset .coupon-data a.btn-success,
+.summary-template-holder
+    .summary-coupon
+    fieldset.coupon-fieldset
+    .coupon-data
+    #vtexIdContainer
+    .vtexIdUI
+    a.btn-success {
+        background: #EE1D23;
+        border: 1px solid #EE1D23;
+        &:hover{
+            background: #EE1D23;  
+        }
+}

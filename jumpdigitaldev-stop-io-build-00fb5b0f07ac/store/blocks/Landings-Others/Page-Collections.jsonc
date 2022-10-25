@@ -1,0 +1,28 @@
+
+{
+  "store.custom#collectionsMain": {
+    "title": "Colecciones",
+    "blocks": [
+      "search-result-layout.customQuery#collection"
+    ]
+  },
+  "search-result-layout.customQuery#collection": {
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 12,
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "facetsBehavior": "Static",
+        "simulationBehavior": "default",
+        "skusFilter": "ALL",
+        "queryField": "jeansdestacados",
+        "mapField": "productClusterNames"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

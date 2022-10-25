@@ -1,0 +1,99 @@
+:global(.vtex-rich-text-0-x-paragraph) a {
+    align-items: center;
+    color: #3d3d3d;
+    display: flex;
+    justify-content: center;
+}
+
+:global(.vtex-store-components-3-x-productImagesGallerySwiperContainer) :global(.c-disabled) {
+    display: none;
+}
+
+:global(.vtex-account__page) :global(.vtex-dropdown) > label > div,
+:global(.vtex-account__page) :global(.vtex-input-prefix__group) :global(.b--solid) {
+    border-radius: 0;
+    border-color: transparent;
+    border-bottom: 1px solid #3f3f40;
+}
+
+.containerButtonModalSearchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconCloseModal::before {
+    content: "\e908" !important;
+    font-size: 15px !important;
+    color: #3E3E3F !important;
+}
+.iconCloseModal,
+.buttonModalSearchBar {
+    color: #757575;
+    font-size: 30px;
+    font-family: "Icons-jump";
+    background-color: #fff;
+    border: none !important;
+    font-size: 0px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.buttonModalSearchBar::before {
+    content: "\e904";
+    font-size: 15px;
+    color: #757575;
+    cursor: pointer;
+    font-family: Icon;
+}
+
+.containerModalSearchBar {
+    width: auto;
+    display: flex;
+    z-index: 2;
+}
+
+.contentModalSearchBar {
+    display: none;
+}
+
+.contentModalSearchBar :global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-input-prefix__group) {
+    height: 0;
+}
+.showModalSearch :global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-input-prefix__group) {
+    min-height: 40px;
+}
+
+.contentModalSearchBar :global(.vtex-store-components-3-x-searchBarContainer) {
+    max-width: unset !important;
+    padding: 0 !important;
+}
+
+.contentModalSearchBar.showModalSearch {
+    visibility: visible;
+    opacity: 1;
+    display: block !important;
+}
+
+.buttonModalSearchBar:focus {
+    outline: none;
+}
+@media screen and (max-width: 767px) {
+    .contentModalSearchBar {
+        position: absolute;
+        opacity: -1;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s;
+        top: 42px;
+        right: 0;
+        width: 100%;
+        left: unset;
+        visibility: hidden;
+        border-top: 1px solid rgb(237, 237, 237);
+    }
+}
+
+@media screen and (min-width: 1025px) {
+}

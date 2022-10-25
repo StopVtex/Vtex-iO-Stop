@@ -1,0 +1,161 @@
+{
+    "search-result-layout": {
+        "title": "PLP",
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ],
+        "props": {
+            "blockClass": "department__layout"
+        }
+    },
+    "search-result-layout.desktop": {
+        "title": "Desktop",
+        "props": {
+            "fullWidth": true,
+            "preventRouteChange": true,
+            "showFacetQuantity": true,
+            "brands": true,
+            "priceRange": true,
+            "blockClass": "totalContentDepartment"
+        },
+        "children": [
+            "flex-layout.row#banner_search",
+            "carousel-with-properties",
+            "flex-layout.row#search-main-row-total"
+        ]
+    },
+    "flex-layout.row#banner_search": {
+      "children": [
+        "search-banner"
+      ],
+      "props": {
+        "fullWidth": true,
+        "blockClass": ["banner"]
+      }
+    },
+    "flex-layout.row#search-main-row-total": {
+        "title": "Contenido Total",
+        "props": {
+            "fullWidth": true,
+            "width": "100%"
+        },
+        "children": [
+            "flex-layout.col#search-main-row"
+        ]
+    },
+    "flex-layout.col#search-main-row": {
+        "title": "Contenido Total",
+        "props": {
+            "blockClass": "total__content__plp",
+            "fullWidth": true,
+            "width": "100%"
+        },
+        "children": [
+            "flex-layout.row#search-main-row",
+            "search-fetch-more",
+            "rich-text#title-h1-seo"
+        ]
+    },
+    "flex-layout.row#search-main-row": {
+        "title": "Contenido",
+        "props": {
+            "blockClass": "container__main__plp",
+            "fullWidth": true,
+            "width": "95%"
+        },
+        "children": [
+            "filter-navigator.v3",
+            "flex-layout.row#search-right-col"
+        ]
+    },
+    "flex-layout.row#search-right-col": {
+        "title": "Contenido Derecha",
+        "props": {
+            "preventVerticalStretch": true,
+            "width": "80%",
+            "blockClass": "seach_right_col__plp"
+        },
+        "children": [
+            "flex-layout.col#searchDepartment"
+        ]
+    },
+    "flex-layout.col#searchDepartment": {
+        "title": "Contenido Search",
+        "props": {
+            "blockClass": "search__total__content__right",
+            "width": "100%"
+        },
+        "children": [
+            "flex-layout.row#totalOrder",
+            "search-content"
+        ]
+    },
+    "flex-layout.row#totalOrder": {
+        "title": "Total - Order By",
+        "children": [
+            "total-products.v2",
+            "search-fetch-previous",
+            "gallery-layout-switcher",
+            "order-by.v2"
+        ]
+    },
+    "search-result-layout.mobile": {
+        "title": "Mobile",
+        "props": {
+            "defaultGalleryLayout": "grid",
+            "blockClass": "content__plp__mobile"
+        },
+        "children": [
+            "flex-layout.row#banner_search",
+            "carousel-with-properties",
+            "breadcrumb.search",
+            "flex-layout.row#filters-order-mobile",
+            "flex-layout.row#total-items-grid-mobile",
+            "search-content",
+            "search-fetch-more",
+            "rich-text#title-h1-seo"
+        ]
+    },
+    "flex-layout.row#filters-order-mobile": {
+        "title": "Filtros - Ordenar Por",
+        "props": {
+            "blockClass": "container__filters__order__mobile"
+        },
+        "children": [
+            "filter-navigator.v3",
+            "order-by.v2"
+        ]
+    },
+    "flex-layout.row#total-items-grid-mobile": {
+        "title": "Total - Switch",
+        "props": {
+            "blockClass": "container__total__items__grid__mobile"
+        },
+        "children": [
+            "total-products.v2",
+            "flex-layout.row#switch"
+        ]
+    },
+    "flex-layout.row#switch": {
+        "title": "Botones",
+        "props": {
+            "blockClass": "cubics"
+        },
+        "children": [
+            "gallery-layout-switcher"
+        ]
+    },
+    "flex-layout.row#banner-one": {
+        "children": [
+            "search-banner"
+        ],
+        "props": {
+            "blockClass": [
+                "banner-one"
+            ],
+            "fullWidth": true
+        }
+    }
+}

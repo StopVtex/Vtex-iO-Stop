@@ -1,0 +1,901 @@
+{
+    "store.custom#politics":{
+        "title": "Políticas",
+        "children": [
+            "flex-layout.row#politics-main-row"
+        ]
+    },
+    "disposition-layout#POLITICS-CONTAINER": {
+        "title": "Políticas - MO",
+        "children": [   
+            "rich-text#statics-title",
+            "rich-text#statics-subtitle",        
+            "disposition-layout#faq-1",
+            "rich-text#statics-subtitle-2",        
+            "disposition-layout#faq-2",
+            "rich-text#statics-subtitle-3",        
+            "disposition-layout#faq-3",
+            "rich-text#statics-subtitle-4",        
+            "disposition-layout#faq-4",
+            "rich-text#statics-subtitle-5",        
+            "disposition-layout#faq-5",
+            "rich-text#statics-subtitle-6",        
+            "disposition-layout#faq-6",
+            "rich-text#statics-subtitle-7",        
+            "disposition-layout#faq-7",
+            "rich-text#statics-subtitle-8",        
+            "disposition-layout#faq-8",
+            "rich-text#statics-subtitle-9",        
+            "disposition-layout#faq-9",
+            "rich-text#statics-subtitle-10",        
+            "disposition-layout#faq-10"
+        ],
+        "props": {
+            
+            "disposition": [
+                {
+                    "order": 1
+                },
+                {
+                    "order": 2
+                },
+                {
+                    "order": 3
+                },
+                {
+                    "order": 4
+                },
+                {
+                    "order": 5
+                },
+                {
+                    "order": 6
+                },
+                {
+                    "order": 7
+                },
+                {
+                    "order": 8
+                },
+                {
+                    "order": 9
+                },
+                {
+                    "order": 10
+                },
+                {
+                    "order": 11
+                },
+                {
+                    "order": 12
+                },
+                {
+                    "order": 13
+                },
+                {
+                    "order": 14
+                },
+                {
+                    "order": 15
+                },
+                {
+                    "order": 16
+                },
+                {
+                    "order": 17
+                },
+                {
+                    "order": 18
+                },
+                {
+                    "order": 19
+                },
+                {
+                    "order": 20
+                },
+                {
+                    "order": 21
+                }
+            ]
+        }
+    },
+    "flex-layout.row#politics-main-row": {
+        "title": "Políticas",
+        "children": [
+            "flex-layout.col#politics-main-col"        
+        ],
+        "props": {
+            "blockClass": "politics-main-conainer-row"
+        }
+    },
+    "flex-layout.col#politics-main-col": {
+        "title": "Contenido",
+        "children": [
+            "disposition-layout#POLITICS-CONTAINER"
+        ],
+        "props": {
+            "blockClass": "faq-main-conainer-col",
+            "preventVerticalStretch": true
+        }
+    },
+    "disposition-layout#faq-1": {
+        "title": "Contenido Sección 1 - MO",
+        "children": [            
+            "disclosure-layout#statics-1",
+            "disclosure-layout#statics-2",
+            "disclosure-layout#statics-3",
+            "disclosure-layout#statics-4",
+            "disclosure-layout#statics-5",
+            "disclosure-layout#statics-6",
+            "disclosure-layout#statics-7",
+            "disclosure-layout#statics-8",
+            "disclosure-layout#statics-9",
+            "disclosure-layout#statics-10",
+            "disclosure-layout#statics-11",
+            "disclosure-layout#statics-12",
+            "disclosure-layout#statics-13",
+            "disclosure-layout#statics-14",
+            "disclosure-layout#statics-15",
+            "disclosure-layout#statics-16",
+            "disclosure-layout#statics-17"
+        ],
+        "props": {
+            
+            "disposition": [
+                {
+                    "order": 1
+                },
+                {
+                    "order": 2
+                },
+                {
+                    "order": 3
+                },
+                {
+                    "order": 4
+                },
+                {
+                    "order": 5
+                },
+                {
+                    "order": 6
+                },
+                {
+                    "order": 7
+                },
+                {
+                    "order": 8
+                },
+                {
+                    "order": 9
+                },
+                {
+                    "order": 10
+                },
+                {
+                    "order": 11
+                },
+                {
+                    "order": 12
+                },
+                {
+                    "order": 13
+                },
+                {
+                    "order": 14
+                },
+                {
+                    "order": 15
+                },
+                {
+                    "order": 16
+                },
+                {
+                    "order": 17
+                }
+            ]
+        }
+    },
+    "disposition-layout#faq-2": {
+        "title": "Contenido Sección 2 - MO",
+        "children": [            
+            "disclosure-layout#statics-1",
+            "disclosure-layout#statics-2",
+            "disclosure-layout#statics-3",
+            "disclosure-layout#statics-4",
+            "disclosure-layout#statics-5",
+            "disclosure-layout#statics-6",
+            "disclosure-layout#statics-7",
+            "disclosure-layout#statics-8",
+            "disclosure-layout#statics-9",
+            "disclosure-layout#statics-10",
+            "disclosure-layout#statics-11",
+            "disclosure-layout#statics-12",
+            "disclosure-layout#statics-13",
+            "disclosure-layout#statics-14",
+            "disclosure-layout#statics-15",
+            "disclosure-layout#statics-16",
+            "disclosure-layout#statics-17"
+        ],
+        "props": {
+            
+            "disposition": [
+                {
+                    "order": 1
+                },
+                {
+                    "order": 2
+                },
+                {
+                    "order": 3
+                },
+                {
+                    "order": 4
+                },
+                {
+                    "order": 5
+                },
+                {
+                    "order": 6
+                },
+                {
+                    "order": 7
+                },
+                {
+                    "order": 8
+                },
+                {
+                    "order": 9
+                },
+                {
+                    "order": 10
+                },
+                {
+                    "order": 11
+                },
+                {
+                    "order": 12
+                },
+                {
+                    "order": 13
+                },
+                {
+                    "order": 14
+                },
+                {
+                    "order": 15
+                },
+                {
+                    "order": 16
+                },
+                {
+                    "order": 17
+                }
+            ]
+        }
+    },
+    "disposition-layout#faq-3": {
+        "title": "Contenido Sección 3 - MO",
+        "children": [            
+            "disclosure-layout#statics-1",
+            "disclosure-layout#statics-2",
+            "disclosure-layout#statics-3",
+            "disclosure-layout#statics-4",
+            "disclosure-layout#statics-5",
+            "disclosure-layout#statics-6",
+            "disclosure-layout#statics-7",
+            "disclosure-layout#statics-8",
+            "disclosure-layout#statics-9",
+            "disclosure-layout#statics-10",
+            "disclosure-layout#statics-11",
+            "disclosure-layout#statics-12",
+            "disclosure-layout#statics-13",
+            "disclosure-layout#statics-14",
+            "disclosure-layout#statics-15",
+            "disclosure-layout#statics-16",
+            "disclosure-layout#statics-17"
+        ],
+        "props": {
+            
+            "disposition": [
+                {
+                    "order": 1
+                },
+                {
+                    "order": 2
+                },
+                {
+                    "order": 3
+                },
+                {
+                    "order": 4
+                },
+                {
+                    "order": 5
+                },
+                {
+                    "order": 6
+                },
+                {
+                    "order": 7
+                },
+                {
+                    "order": 8
+                },
+                {
+                    "order": 9
+                },
+                {
+                    "order": 10
+                },
+                {
+                    "order": 11
+                },
+                {
+                    "order": 12
+                },
+                {
+                    "order": 13
+                },
+                {
+                    "order": 14
+                },
+                {
+                    "order": 15
+                },
+                {
+                    "order": 16
+                },
+                {
+                    "order": 17
+                }
+            ]
+        }
+    },
+    "disposition-layout#faq-4": {
+        "title": "Contenido Sección 4 - MO",
+        "children": [            
+            "disclosure-layout#statics-1",
+            "disclosure-layout#statics-2",
+            "disclosure-layout#statics-3",
+            "disclosure-layout#statics-4",
+            "disclosure-layout#statics-5",
+            "disclosure-layout#statics-6",
+            "disclosure-layout#statics-7",
+            "disclosure-layout#statics-8",
+            "disclosure-layout#statics-9",
+            "disclosure-layout#statics-10",
+            "disclosure-layout#statics-11",
+            "disclosure-layout#statics-12",
+            "disclosure-layout#statics-13",
+            "disclosure-layout#statics-14",
+            "disclosure-layout#statics-15",
+            "disclosure-layout#statics-16",
+            "disclosure-layout#statics-17"
+        ],
+        "props": {
+            
+            "disposition": [
+                {
+                    "order": 1
+                },
+                {
+                    "order": 2
+                },
+                {
+                    "order": 3
+                },
+                {
+                    "order": 4
+                },
+                {
+                    "order": 5
+                },
+                {
+                    "order": 6
+                },
+                {
+                    "order": 7
+                },
+                {
+                    "order": 8
+                },
+                {
+                    "order": 9
+                },
+                {
+                    "order": 10
+                },
+                {
+                    "order": 11
+                },
+                {
+                    "order": 12
+                },
+                {
+                    "order": 13
+                },
+                {
+                    "order": 14
+                },
+                {
+                    "order": 15
+                },
+                {
+                    "order": 16
+                },
+                {
+                    "order": 17
+                }
+            ]
+        }
+    },
+    "disposition-layout#faq-5": {
+        "title": "Contenido Sección 5 - MO",
+        "children": [            
+            "disclosure-layout#statics-1",
+            "disclosure-layout#statics-2",
+            "disclosure-layout#statics-3",
+            "disclosure-layout#statics-4",
+            "disclosure-layout#statics-5",
+            "disclosure-layout#statics-6",
+            "disclosure-layout#statics-7",
+            "disclosure-layout#statics-8",
+            "disclosure-layout#statics-9",
+            "disclosure-layout#statics-10",
+            "disclosure-layout#statics-11",
+            "disclosure-layout#statics-12",
+            "disclosure-layout#statics-13",
+            "disclosure-layout#statics-14",
+            "disclosure-layout#statics-15",
+            "disclosure-layout#statics-16",
+            "disclosure-layout#statics-17"
+        ],
+        "props": {
+            
+            "disposition": [
+                {
+                    "order": 1
+                },
+                {
+                    "order": 2
+                },
+                {
+                    "order": 3
+                },
+                {
+                    "order": 4
+                },
+                {
+                    "order": 5
+                },
+                {
+                    "order": 6
+                },
+                {
+                    "order": 7
+                },
+                {
+                    "order": 8
+                },
+                {
+                    "order": 9
+                },
+                {
+                    "order": 10
+                },
+                {
+                    "order": 11
+                },
+                {
+                    "order": 12
+                },
+                {
+                    "order": 13
+                },
+                {
+                    "order": 14
+                },
+                {
+                    "order": 15
+                },
+                {
+                    "order": 16
+                },
+                {
+                    "order": 17
+                }
+            ]
+        }
+    },
+    "disposition-layout#faq-6": {
+        "title": "Contenido Sección 6 - MO",
+        "children": [            
+            "disclosure-layout#statics-1",
+            "disclosure-layout#statics-2",
+            "disclosure-layout#statics-3",
+            "disclosure-layout#statics-4",
+            "disclosure-layout#statics-5",
+            "disclosure-layout#statics-6",
+            "disclosure-layout#statics-7",
+            "disclosure-layout#statics-8",
+            "disclosure-layout#statics-9",
+            "disclosure-layout#statics-10",
+            "disclosure-layout#statics-11",
+            "disclosure-layout#statics-12",
+            "disclosure-layout#statics-13",
+            "disclosure-layout#statics-14",
+            "disclosure-layout#statics-15",
+            "disclosure-layout#statics-16",
+            "disclosure-layout#statics-17"
+        ],
+        "props": {
+            
+            "disposition": [
+                {
+                    "order": 1
+                },
+                {
+                    "order": 2
+                },
+                {
+                    "order": 3
+                },
+                {
+                    "order": 4
+                },
+                {
+                    "order": 5
+                },
+                {
+                    "order": 6
+                },
+                {
+                    "order": 7
+                },
+                {
+                    "order": 8
+                },
+                {
+                    "order": 9
+                },
+                {
+                    "order": 10
+                },
+                {
+                    "order": 11
+                },
+                {
+                    "order": 12
+                },
+                {
+                    "order": 13
+                },
+                {
+                    "order": 14
+                },
+                {
+                    "order": 15
+                },
+                {
+                    "order": 16
+                },
+                {
+                    "order": 17
+                }
+            ]
+        }
+    },
+    "disposition-layout#faq-7": {
+        "title": "Contenido Sección 7 - MO",
+        "children": [            
+            "disclosure-layout#statics-1",
+            "disclosure-layout#statics-2",
+            "disclosure-layout#statics-3",
+            "disclosure-layout#statics-4",
+            "disclosure-layout#statics-5",
+            "disclosure-layout#statics-6",
+            "disclosure-layout#statics-7",
+            "disclosure-layout#statics-8",
+            "disclosure-layout#statics-9",
+            "disclosure-layout#statics-10",
+            "disclosure-layout#statics-11",
+            "disclosure-layout#statics-12",
+            "disclosure-layout#statics-13",
+            "disclosure-layout#statics-14",
+            "disclosure-layout#statics-15",
+            "disclosure-layout#statics-16",
+            "disclosure-layout#statics-17"
+        ],
+        "props": {
+            
+            "disposition": [
+                {
+                    "order": 1
+                },
+                {
+                    "order": 2
+                },
+                {
+                    "order": 3
+                },
+                {
+                    "order": 4
+                },
+                {
+                    "order": 5
+                },
+                {
+                    "order": 6
+                },
+                {
+                    "order": 7
+                },
+                {
+                    "order": 8
+                },
+                {
+                    "order": 9
+                },
+                {
+                    "order": 10
+                },
+                {
+                    "order": 11
+                },
+                {
+                    "order": 12
+                },
+                {
+                    "order": 13
+                },
+                {
+                    "order": 14
+                },
+                {
+                    "order": 15
+                },
+                {
+                    "order": 16
+                },
+                {
+                    "order": 17
+                }
+            ]
+        }
+    },
+    "disposition-layout#faq-8": {
+        "title": "Contenido Sección 8 - MO",
+        "children": [            
+            "disclosure-layout#statics-1",
+            "disclosure-layout#statics-2",
+            "disclosure-layout#statics-3",
+            "disclosure-layout#statics-4",
+            "disclosure-layout#statics-5",
+            "disclosure-layout#statics-6",
+            "disclosure-layout#statics-7",
+            "disclosure-layout#statics-8",
+            "disclosure-layout#statics-9",
+            "disclosure-layout#statics-10",
+            "disclosure-layout#statics-11",
+            "disclosure-layout#statics-12",
+            "disclosure-layout#statics-13",
+            "disclosure-layout#statics-14",
+            "disclosure-layout#statics-15",
+            "disclosure-layout#statics-16",
+            "disclosure-layout#statics-17"
+        ],
+        "props": {
+            
+            "disposition": [
+                {
+                    "order": 1
+                },
+                {
+                    "order": 2
+                },
+                {
+                    "order": 3
+                },
+                {
+                    "order": 4
+                },
+                {
+                    "order": 5
+                },
+                {
+                    "order": 6
+                },
+                {
+                    "order": 7
+                },
+                {
+                    "order": 8
+                },
+                {
+                    "order": 9
+                },
+                {
+                    "order": 10
+                },
+                {
+                    "order": 11
+                },
+                {
+                    "order": 12
+                },
+                {
+                    "order": 13
+                },
+                {
+                    "order": 14
+                },
+                {
+                    "order": 15
+                },
+                {
+                    "order": 16
+                },
+                {
+                    "order": 17
+                }
+            ]
+        }
+    },
+    "disposition-layout#faq-9": {
+        "title": "Contenido Sección 9 - MO",
+        "children": [            
+            "disclosure-layout#statics-1",
+            "disclosure-layout#statics-2",
+            "disclosure-layout#statics-3",
+            "disclosure-layout#statics-4",
+            "disclosure-layout#statics-5",
+            "disclosure-layout#statics-6",
+            "disclosure-layout#statics-7",
+            "disclosure-layout#statics-8",
+            "disclosure-layout#statics-9",
+            "disclosure-layout#statics-10",
+            "disclosure-layout#statics-11",
+            "disclosure-layout#statics-12",
+            "disclosure-layout#statics-13",
+            "disclosure-layout#statics-14",
+            "disclosure-layout#statics-15",
+            "disclosure-layout#statics-16",
+            "disclosure-layout#statics-17"
+        ],
+        "props": {
+            
+            "disposition": [
+                {
+                    "order": 1
+                },
+                {
+                    "order": 2
+                },
+                {
+                    "order": 3
+                },
+                {
+                    "order": 4
+                },
+                {
+                    "order": 5
+                },
+                {
+                    "order": 6
+                },
+                {
+                    "order": 7
+                },
+                {
+                    "order": 8
+                },
+                {
+                    "order": 9
+                },
+                {
+                    "order": 10
+                },
+                {
+                    "order": 11
+                },
+                {
+                    "order": 12
+                },
+                {
+                    "order": 13
+                },
+                {
+                    "order": 14
+                },
+                {
+                    "order": 15
+                },
+                {
+                    "order": 16
+                },
+                {
+                    "order": 17
+                }
+            ]
+        }
+    },
+    "disposition-layout#faq-10": {
+        "title": "Contenido Sección 10 - MO",
+        "children": [            
+            "disclosure-layout#statics-1",
+            "disclosure-layout#statics-2",
+            "disclosure-layout#statics-3",
+            "disclosure-layout#statics-4",
+            "disclosure-layout#statics-5",
+            "disclosure-layout#statics-6",
+            "disclosure-layout#statics-7",
+            "disclosure-layout#statics-8",
+            "disclosure-layout#statics-9",
+            "disclosure-layout#statics-10",
+            "disclosure-layout#statics-11",
+            "disclosure-layout#statics-12",
+            "disclosure-layout#statics-13",
+            "disclosure-layout#statics-14",
+            "disclosure-layout#statics-15",
+            "disclosure-layout#statics-16",
+            "disclosure-layout#statics-17"
+        ],
+        "props": {
+            
+            "disposition": [
+                {
+                    "order": 1
+                },
+                {
+                    "order": 2
+                },
+                {
+                    "order": 3
+                },
+                {
+                    "order": 4
+                },
+                {
+                    "order": 5
+                },
+                {
+                    "order": 6
+                },
+                {
+                    "order": 7
+                },
+                {
+                    "order": 8
+                },
+                {
+                    "order": 9
+                },
+                {
+                    "order": 10
+                },
+                {
+                    "order": 11
+                },
+                {
+                    "order": 12
+                },
+                {
+                    "order": 13
+                },
+                {
+                    "order": 14
+                },
+                {
+                    "order": 15
+                },
+                {
+                    "order": 16
+                },
+                {
+                    "order": 17
+                }
+            ]
+        }
+    }
+}

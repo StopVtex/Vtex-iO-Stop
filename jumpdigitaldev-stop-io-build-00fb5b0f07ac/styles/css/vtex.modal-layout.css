@@ -1,0 +1,118 @@
+.paper--modal_news_popup {
+    border-radius: 0;
+}
+.headerContainer--news_popUp {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+}
+.closeButton--news_popUp::after {
+    content: "\e908";
+    font-family: "Icon";
+    font-size: 14px;
+}
+.backdrop--guide-size {
+    background-color: #949494;
+}
+.closeButtonContainer--tallas {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.contentContainer--Size {
+    padding-top: 40px;
+}
+.closeIcon--news_popUp,
+.closeIcon--tallas {
+    display: none;
+}
+
+
+.container--cookies {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.paper--cookies {
+    margin: 0;
+    width: 100%;
+    background-color: #5b5b5b;
+    border-radius: 0;
+}
+
+.headerContent--header-cookies {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 95%;
+    align-items: center;
+}
+
+.closeButton--cookies {
+    max-width: 120px;
+    max-height: 30px;
+    border-radius: 0;
+    border: unset;
+    padding: 0 10px;
+    margin: 10px;
+}
+
+.closeButtonLabel--cookies {
+    padding: 0;
+}
+
+.headerContainer--header-cookies {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: none;
+}
+
+.modal--cookies {
+    z-index: 200000 !important;
+}
+
+.closeIcon--header-cookies {
+    color: #fff;
+}
+
+.backdropContainer--cookies,
+.backdrop--cookies {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+.closeButtonLabel--cookies {
+    font-size: 14px;
+}
+
+.closeButton--cookies:hover {
+    transition: all 0.3s;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .paper--modal_news_popup {
+        margin: 0 !important;
+        width: 90%;
+    }
+    .paper--quickview {
+        min-height: 216px;
+    }
+    .triggerContainer--guide-size {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .paper--modal_news_popup {
+        max-width: 70%;
+        overflow: hidden;
+    }
+}

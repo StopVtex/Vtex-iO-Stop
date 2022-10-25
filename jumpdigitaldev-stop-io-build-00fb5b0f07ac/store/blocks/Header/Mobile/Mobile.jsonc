@@ -1,0 +1,90 @@
+{
+    "header-layout.mobile": {
+        "title": "Mobile",
+        "props": {
+            "blockClass": "header__mobile"
+        },
+        "children": [
+            "custom-open-modal#newsletter_popUp",
+            "custom-open-modal",
+            "sticky-layout#header-mobile",
+            "image#whatsapp-fixed-button",
+            "custom-styles"
+        ]
+    },
+    "sticky-layout#header-mobile": {
+        "title": "Header Fijo",
+        "children": ["header-row#header__components__mobile"],
+        "props":{
+            "blockClass":"header"
+        }
+    },
+    "header-row#header__components__mobile": {
+        "title": "Contenido",
+        "props": {
+            "sticky": true,
+            "blockClass": "header__components__mobile"
+        },
+        "children": [
+            "flex-layout.row#mobile_main"
+        ]
+    },
+    "flex-layout.row#mobile_main": {
+        "title": "Principal",
+        "children": [
+            "header-row#components_mobile"
+        ],
+        "props": {
+            "fullWidth":true
+        }
+    },
+    "header-row#components_mobile": {
+        "children": [
+            "drawer#menu__mobile",
+            "disposition-layout#components__mobile"
+        ],
+        "props":{
+            "blockClass": "header-components",
+            "fullWidth": true
+        }
+    },
+    "disposition-layout#components__mobile": {
+        "title": "Componentes - Mostrar / Ocultar / Reorganizar",
+        "children": [
+            "header-spacer",
+            "logo",
+            "header-spacer",
+            "custom-search-bar",
+            "login",
+            "minicart.v2"
+        ],
+        "props": {
+            "disposition": [
+                {
+                    "order": 1
+                },
+                {
+                    "order": 2
+                },
+                {
+                    "order": 3
+                },
+                {
+                    "order": 4
+                },
+                {
+                    "order": 5
+                },
+                {
+                    "order": 6
+                }
+            ]
+        }
+    },
+    "custom-search-bar": {
+        "title":"Buscador",
+        "children": [
+            "search-bar"
+        ]
+    }
+}

@@ -1,0 +1,325 @@
+:global(.vtex-rich-text-0-x--link--menu__whatsapp)::before,
+:global(.vtex-rich-text-0-x-link--header__wishlist)::before,
+:global(.vtex-store-drawer-0-x-opened) :global(.vtex-store-drawer-0-x-closeIconButton)::before,
+:global(.vtex-search-result-3-x-galleryLayoutOptionButton--grid2)::before,
+:global(.vtex-search-result-3-x-filterMessage)::before,
+:global(.vtex-search-result-3-x-galleryLayoutOptionButton--grid1)::before,
+:global(.vtex-search-result-3-x-orderByButton)::before,
+:global(.vtex-search-result-3-x-filterPopupButton)::before,
+:global(.vtex-store-components-3-x-imageElement--button__whatsapp__pnf)::before,
+:global(.vtex-store-components-3-x-imageElementLink--button__whatsapp)::before,
+:global(.vtex-store-components-3-x-searchBarIcon--search)::before,
+:global(.vtex-store-components-3-x-backToTopButtonContainer) :global(.vtex-button__label)::after,
+:global(.vtex-minicart-2-x-minicartIconContainer)::before,
+:global(.vtex-minicart-2-x-closeIconButton)::before,
+:global(.vtex-menu-2-x-accordionIcon--menu-drawer--isOpen)::before,
+:global(.vtex-menu-2-x-accordionIcon--categoria-mobile--isOpen)::before,
+:global(.vtex-menu-2-x-accordionIcon--menu-drawer--isClosed)::before,
+:global(.vtex-menu-2-x-accordionIcon--categoria-mobile--isClosed)::before,
+:global(.vtex-disclosure-layout-1-x-trigger--footer__terms--visible)
+:global(.vtex-menu-2-x-styledLinkContent--footer__menu-text)::after,
+:global(.vtex-disclosure-layout-1-x-trigger--footer__terms--hidden)
+:global(.vtex-menu-2-x-styledLinkContent--footer__menu-text)::after,
+:global(.vtex-login-2-x-eyeIcon--invisible)::before,
+:global(.vtex-login-2-x-container) :global(.vtex-button)::before,
+:global(.vtex-store-components-3-x-carouselGaleryThumbs)
+:global(.vtex-store-components-3-x-productImagesThumbCaret)::after,
+:global(.vtex-store-components-3-x-carouselGaleryThumbs)
+:global(.vtex-store-components-3-x-productImagesThumbCaret):last-child::after,
+:global(.vtex-wish-list-1-x-outline)::after,
+:global(.vtex-wish-list-1-x-fill)::before,
+:global(.vtex-store-footer-2-x-socialNetworkLink),
+:global(.vtex-store-footer-2-x-socialNetworkLink--facebook)::before,
+:global(.vtex-store-footer-2-x-socialNetworkLink--instagram)::before,
+:global(.vtex-store-footer-2-x-socialNetworkLink--youtube)::before,
+:global(.vtex-store-footer-2-x-socialNetworkLink--linkedin)::before,
+:global(.vtex-store-footer-2-x-socialNetworkLink--twitter)::before,
+:global(.vtex-store-footer-2-x-socialNetworkLink--pinterest)::before,
+:global(.vtex-store-drawer-0-x-openIconContainer)::before,
+:global(.vtex-shelf-1-x-arrowLeft)::before,
+:global(.vtex-store-components-3-x-swiperCaretPrev)::before,
+:global(.vtex-slider-layout-0-x-sliderLeftArrow)::before,
+:global(.vtex-shelf-1-x-arrowRight)::before,
+:global(.vtex-store-components-3-x-swiperCaretNext)::before,
+:global(.vtex-slider-layout-0-x-sliderRightArrow)::before,
+:global(.vtex-store-components-3-x-imageElementLink--logo__vtex)::before,
+:global(.vtex-store-components-3-x-imageElementLink--logo__jump)::before,
+:global(.vtex-search-result-3-x-filterAvailable) :global(.vtex-search-result-3-x-filterIcon)::before,
+:global(.vtex-search-result-3-x-filterIsOpen) :global(.vtex-search-result-3-x-filterIcon)::before,
+:global(.vtex-search-result-3-x-filterPopupArrowIcon)::before {
+    font-family: "Icon";
+    color: #757575;
+}
+:global(.vtex-search-result-3-x-filterPopupArrowIcon)::before {
+    content: "";
+    font-size: 20px;
+}
+
+:global(.vtex-search-result-3-x-filterMessage)::before {
+    content: "\e91d";
+    font-size: 16px;
+    margin-right: 5px;
+}
+:global(.vtex-search-result-3-x-galleryLayoutOptionButton--grid1)::before {
+    content: "\e927";
+    font-size: 17px;
+    color: #80808030;
+}
+
+:global(.vtex-search-result-3-x-galleryLayoutOptionButton--grid2)::before {
+    content: "\e928";
+    font-size: 17px;
+    color: #80808030;
+}
+
+:global(.vtex-search-result-3-x-galleryLayoutOptionButton--selected)::before{
+    color: #646464;
+}
+
+:global(.vtex-search-result-3-x-orderByButton)::before {
+    content: "\e91f";
+    font-size: 20px;
+    margin-right: 5px;
+    color: #3E3E3F;
+}
+
+:global(.vtex-search-result-3-x-filterPopupButton)::before {
+    content: "\e91d";
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--button__whatsapp__pnf)::before {
+    content: "\e93e";
+    font-size: 40px;
+    margin-right: 10px;
+}
+:global(.vtex-store-components-3-x-imageElementLink--button__whatsapp)::before {
+    content: "\e93e";
+    font-size: 40px;
+    margin-right: 5px;
+}
+:global(.vtex-store-components-3-x-searchBarIcon--search)::before {
+    content: "\e904";
+    font-size: 15px;
+    color: #3E3E3F;
+}
+
+:global(.vtex-store-components-3-x-backToTopButtonContainer) :global(.vtex-button__label)::after {
+    content: "\e91e";
+    font-size: 40px;
+}
+
+:global(.vtex-minicart-2-x-closeIconButton)::before {
+    content: "\e908";
+    font-size: 15px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-drawer--isClosed)::before,
+:global(.vtex-menu-2-x-accordionIcon--categoria-mobile--isClosed)::before
+    :global(.vtex-menu-2-x-accordionIcon--menu-drawer--isOpen)::before,
+:global(.vtex-menu-2-x-accordionIcon--categoria-mobile--isOpen)::before {
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-drawer--isOpen)::before,
+:global(.vtex-menu-2-x-accordionIcon--categoria-mobile--isOpen)::before {
+    content: "\e920";
+    font-size: 6px;
+    color: #3E3E3F;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-drawer--isClosed)::before,
+:global(.vtex-menu-2-x-accordionIcon--categoria-mobile--isClosed)::before {
+    content: "\e911";
+    font-size: 6px;
+    color: #3E3E3F;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--footer__terms--visible)
+    :global(.vtex-menu-2-x-styledLinkContent--footer__menu-text)::after {
+    content: "\e920";
+    font-size: 5px;
+    color: #757575;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--footer__terms--hidden)
+    :global(.vtex-menu-2-x-styledLinkContent--footer__menu-text)::after {
+    content: "\e911";
+    font-size: 5px;
+    color: #757575;
+}
+:global(.vtex-login-2-x-eyeIcon--invisible)::before,
+:global(.vtex-login-2-x-container) :global(.vtex-button)::before {
+    color: #757575;
+}
+:global(.vtex-store-components-3-x-carouselGaleryThumbs)
+    :global(.vtex-store-components-3-x-productImagesThumbCaret)::after {
+    content: "\e911";
+    font-size: 25px;
+    transition: all 0.3s;
+}
+:global(.vtex-store-components-3-x-carouselGaleryThumbs)
+    :global(.vtex-store-components-3-x-productImagesThumbCaret):last-child::after {
+    content: "\e920" !important;
+    font-size: 25px;
+    transition: all 0.3s;
+}
+:global(.vtex-wish-list-1-x-outline)::after {
+    content: "\e90f";
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+:global(.vtex-wish-list-1-x-iconSize):hover::after{
+    color: rgb(196, 0, 0);
+}
+
+:global(.vtex-wish-list-1-x-fill)::before {
+    content: "\e90f";
+    font-size: 15px;
+    color: rgb(196, 0, 0);
+}
+
+:global(.vtex-store-footer-2-x-socialNetworkLink--facebook)::before {
+    content: "\ea91";
+    font-size: 18px;
+    color: #282828;
+    position: relative;
+    bottom: 1px;
+}
+
+:global(.vtex-store-footer-2-x-socialNetworkLink--instagram)::before {
+    content: "\ea92";
+    font-size: 18px;
+    color: #282828;
+}
+
+:global(.vtex-store-footer-2-x-socialNetworkLink--youtube)::before {
+    content: "\e926";
+    font-size: 24px;
+    color: #282828;
+    padding-left: 10px;
+}
+
+:global(.vtex-store-footer-2-x-socialNetworkLink--pinterest)::before {
+    content: "\ead1";
+    font-size: 20px;
+    color: #282828;
+}
+
+:global(.vtex-store-drawer-0-x-openIconContainer)::before {
+    content: "\e915";
+    font-size: 15px;
+    
+}
+
+:global(.vtex-shelf-1-x-arrowLeft)::before,
+:global(.vtex-store-components-3-x-swiperCaretPrev)::before,
+:global(.vtex-slider-layout-0-x-sliderLeftArrow)::before {
+    content: "\e912";
+    font-size: 20px;
+    color: #EEEEEF;
+}
+
+:global(.vtex-shelf-1-x-arrowRight)::before,
+:global(.vtex-store-components-3-x-swiperCaretNext)::before,
+:global(.vtex-slider-layout-0-x-sliderRightArrow)::before {
+    content: "\e910";
+    font-size: 20px;
+    color: #EEEEEF;
+}
+
+:global(.vtex-store-components-3-x-imageElementLink--logo__vtex)::before {
+    content: "\e921";
+    font-size: 22px;
+    color: #000;
+}
+
+:global(.vtex-store-components-3-x-imageElementLink--logo__jump)::before {
+    content: "\e922";
+    font-size: 25px;
+    color: #000;
+}
+
+:global(.vtex-search-result-3-x-filterAvailable) :global(.vtex-search-result-3-x-filterIcon)::before {
+    content: "\e911";
+    font-size: 5px;
+}
+
+:global(.vtex-search-result-3-x-filterIsOpen) :global(.vtex-search-result-3-x-filterIcon)::before {
+    content: "\e920";
+    font-size: 5px;
+}
+
+:global(.vtex-rich-text-0-x-link--header__wishlist)::before {
+    content: "\e90f";
+    font-size: 15px;
+    color: #3E3E3F;
+}
+
+:global(.vtex-rich-text-0-x--link--menu__whatsapp)::before {
+    content: "\e93e";
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+:global(.vtex-product-list-0-x-removeButton)::before {
+    content: "\e903";
+    font-family: "Icon";
+    font-size: 13px;
+    position: relative;
+    top: 5px;
+}
+
+@media screen and (min-width: 1025px) {
+    :global(.vtex-login-2-x-button):hover {
+        border-radius: 0;
+        color: #fff;
+    }
+
+    :global(.vtex-product-list-0-x-removeButton):hover::before,
+    :global(.vtex-store-components-3-x-swiperCaretNext):hover::before,
+    :global(.vtex-store-components-3-x-swiperCaretPrev):hover::before,
+    :global(.vtex-shelf-1-x-arrowLeft):hover::before,
+    :global(.vtex-shelf-1-x-arrowRight):hover::before,
+    :global(.vtex-store-components-3-x-imageElementLink):hover::before{
+        transition: all 0.3s;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    :global(.vtex-search-result-3-x-galleryLayoutOptionButton--grid1)::before {
+        content: "\e92d";
+        font-size: 17px;
+        color: #80808030;
+    }
+    
+    :global(.vtex-search-result-3-x-galleryLayoutOptionButton--grid2)::before {
+        content: "\e92c";
+        font-size: 17px;
+        color: #80808030;
+    }
+    :global(.vtex-search-result-3-x-galleryLayoutOptionButton--selected)::before{
+        color: #646464;
+    }
+    :global(.vtex-store-drawer-0-x-opened) :global(.vtex-store-drawer-0-x-closeIconButton)::before {
+        content: "\e908";
+        font-size: 15px;
+        color: #fff;
+    }
+    :global(.vtex-store-drawer-0-x-closeIcon) {
+        display: none;
+    }
+
+    :global(.vtex-store-components-3-x-productImagesGallerySwiperContainer) :global(.vtex-store-components-3-x-swiperCaretNext)::before,
+    :global(.vtex-store-components-3-x-productImagesGallerySwiperContainer) :global(.vtex-store-components-3-x-swiperCaretPrev)::before{
+        font-size: 36px;
+        position: relative;
+        right: -7px;
+    }
+}

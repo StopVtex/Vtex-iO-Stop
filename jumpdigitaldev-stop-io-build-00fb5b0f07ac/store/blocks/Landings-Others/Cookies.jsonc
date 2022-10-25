@@ -1,0 +1,55 @@
+{
+    "custom-open-modal": {
+        "title": "Cookies",
+        "children": [
+            "modal-trigger#cookies"
+        ]
+    },
+    "modal-trigger#cookies": {
+        "title": "Apertura",
+        "children": [
+            "modal-layout#cookies"
+        ],
+        "props": {
+            "blockClass": "trigger",
+            "trigger": "load"
+        }
+    },
+    "modal-layout#cookies": {
+        "title": "Contenedor",
+        "children": [
+            "modal-header#cookies"
+        ],
+        "props": {
+            "blockClass": "cookies"
+        }
+    },
+    "modal-header#cookies": {
+        "title": "Encabezado",
+        "children": [
+            "modal-actions.close#cookies",
+            "rich-text#cookies"
+        ],
+        "props": {
+            "blockClass": "header-cookies",
+            "showCloseButton": true,
+            "iconCloseSize": 16
+        }
+    },
+    "modal-actions.close#cookies": {
+        "title": "Aceptar",
+        "props": {
+            "blockClass": "cookies",
+            "label": "Aceptar"
+        }
+    },
+    "rich-text#cookies": {
+        "title": "Texto Cookies",
+        "props": {
+            "blockClass": "cookies",
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "SPIRITO usa cookies para personalizar tu experiencia de navegación, al navegar en nuestro sitio estás aceptando su uso. Si deseas conocer nuestra política haz clic [**aquí**](/legales)"
+        }
+    }
+}

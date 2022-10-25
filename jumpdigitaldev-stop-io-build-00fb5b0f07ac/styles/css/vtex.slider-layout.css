@@ -1,0 +1,391 @@
+.videoElement {
+    object-fit: unset !important;
+}
+.videoElement,
+.videoContainer {
+    width: 100%;
+    height: 100%;
+}
+.imageElementLink {
+    width: 100%;
+    height: 100%;
+}
+
+.imageElement {
+    max-height: unset !important;
+}
+
+:global(.vtex-shelf-1-x-caretIcon),
+.caretIcon {
+    display: none;
+}
+
+
+.paginationDotsContainer {
+    bottom: -35px;
+}
+
+:global(.vtex-shelf-1-x-slide),
+:global(.vtex-slider-layout-0-x-slide) .container {
+    padding: 0 10px;
+}
+
+.sliderRightArrow--home__shelf::before,
+.sliderLeftArrow--home__shelf::before {
+    font-size: 20px !important;
+}
+
+.infoCardContainer--deals__home {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-height: 170px;
+}
+
+.infoCardCallActionText--deals__home,
+.infoCardCallActionContainer--deals__home {
+    text-decoration: none;
+}
+
+.sliderLayoutContainer--deals__home {
+    margin-top: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+
+.infoCardCallActionContainer--deals__home {
+    margin-bottom: 0;
+}
+
+.paginationDot--carousel__home {
+    width: 9px !important;
+    height: 9px !important;
+    margin: 0 6px;
+}
+
+.sliderTrack--slide__wishlist {
+    width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    transform: translate3d(0px, 0px, 0px) !important;
+}
+
+.slide--slide__wishlist,
+.slide--slide__wishlist--hidden {
+    width: auto !important;
+    margin: 0 5px;
+    max-width: 23% !important;
+}
+
+.infoCardImageContainer--deals__home {
+    max-width: 45px;
+    max-height: 45px;
+}
+
+.infoCardTextContainer--deals__home {
+    width: 100% !important;
+}
+
+.infoCardSubhead--deals__home{
+    font-family: "Quicksand-Bold";
+    font-size: 11.24px;
+    color: #3E3E3F;
+    line-height: 15.4px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.sliderLayoutContainer--banner-not-found {
+    max-width: 100% !important;
+    margin-bottom: 0 !important;
+    margin-top: 40px !important;
+}
+
+.sliderLayoutContainer--size-guide{
+    max-width: unset !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.slideChildrenContainer--industria{
+    width: 30%;    
+    margin: auto;
+}
+
+.sliderTrack--deals__home .slideChildrenContainer--deals__home .infoCardContainer--deals__home .infoCardImageContainer--deals__home .infoCardImage--deals__home{
+    max-width: 37px;
+}
+
+.sliderTrack--deals__home .slide--deals__home--firstVisible .slideChildrenContainer--deals__home .infoCardContainer--deals__home .infoCardImageContainer--deals__home .infoCardImage--deals__home{
+    max-width: 32px;
+}
+
+.sliderTrack--deals__home .slide--deals__home--lastVisible .slideChildrenContainer--deals__home .infoCardContainer--deals__home .infoCardImageContainer--deals__home .infoCardImage--deals__home{
+    max-width: 30px;
+}
+
+.infoCardHeadline--deals__home{
+    display: none;
+}
+
+.infoCardSubhead--deals__home {
+    margin-top: 8px;
+}
+
+.sliderLayoutContainer--carousel__home-1{
+    position: relative;
+    top: -64px;
+    margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .sliderLayoutContainer--banner-not-found {
+        padding: 0 20px;
+    }
+    :global(.vtex-shelf-1-x-shelfContentContainer),
+    .sliderLayoutContainer {
+        margin-bottom: 30px;
+    }
+
+    .sliderLayoutContainer--carousel__home-1{
+        top: -42px;
+    }
+
+    .slideChildrenContainer--industria{
+        width: 40%;
+    }
+
+    .slide--payment-methods--visible{
+        padding-inline: 20px;
+        padding-bottom: 20px;
+    }
+
+    .imageElement--banner-credito{
+        width: 100% !important;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .infoCardCallActionContainer--images__gallery__home,
+    .infoCardCallActionContainer--deals__home{
+        display: none;
+    }
+
+    .infoCardSubhead--deals__home{
+        margin-top: 10px;
+    }
+
+    .sliderTrackContainer--deals__home{
+        margin-inline: 10vw;
+    }
+
+    .infoCardImageContainer--images__gallery__home,
+    .infoCardContainer--images__gallery__home,
+    .infoCardImage--images__gallery__home{
+        width: 100%;
+    }
+
+    .sliderLayoutContainer{
+        margin: 50px auto;
+    }
+
+    .slide--images__gallery__plp--visible{
+        width: 50% !important;
+    }
+
+    .infoCardContainer--images__gallery__home{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sliderLayoutContainer--carousel__home__video-1{
+        padding-bottom: 0;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--payment__methods__powered) .sliderLayoutContainer,
+    .sliderLayoutContainer--slider__header__top {
+        max-width: unset;
+        margin: 0 auto;
+        padding: 0 !important;
+    }
+
+    .slide--slide__wishlist,
+    .slide--slide__wishlist--hidden {
+        max-width: 47% !important;
+    }
+
+
+    .slide--deals__home--hidden {
+        display: none;
+    }
+
+    .slide--deals__home--visible {
+        width: 50% !important;
+    }
+
+    .slide--deals__home--visible {
+        margin-top: 40px;
+    }
+
+    .sliderTrack--deals__home {
+        width: 100% !important;
+        flex-wrap: wrap;
+        display: flex;
+        transform: unset !important;
+    }
+
+    .infoCardTextContainer--deals__home{
+        min-width: 0px !important;
+    }
+
+    .sliderLayoutContainer--home__shelf .sliderLeftArrow::before,
+    .sliderLayoutContainer--home__shelf .sliderRightArrow::before{
+        color: #3E3E3F;
+    } 
+
+    .sliderLayoutContainer--deals__home{
+        margin: 20px auto 0;
+    }
+
+    .sliderLayoutContainer--banner-credito{
+        margin: 0 !important;
+    } 
+
+    .sliderLayoutContainer--home__shelf{
+        padding-inline: 9px;
+    }
+
+    .sliderLayoutContainer--carousel__home{
+        margin-top: 0px !important;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .infoCardTextContainer--images__gallery__plp {
+        height: 93px;
+    }
+    .sliderLayoutContainer {
+        max-width: 95%;
+        margin: 0px auto 70px;
+        padding: 0 30px 0px;
+    }
+
+    .sliderLayoutContainer--images__gallery__home,
+    .sliderLayoutContainer--slider__header__top {
+        max-width: unset;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .sliderLayoutContainer--images__gallery__home,
+    .sliderLayoutContainer--carousel__home {
+        padding: 30px 0 0;
+        margin-bottom: 40px;
+        max-width: unset;
+    }
+
+    .sliderLayoutContainer--carousel__home{
+        padding: 0;
+    }
+
+    .imageElement--images__gallery__home:hover {
+        transition: all 0.3s;
+        opacity: 0.8;
+    }
+
+    .infoCardContainer--deals__home {
+        max-height: unset;
+    }
+
+    :global(.vtex-store-video-1-x-videoElement--carousel__home__video-1){
+        min-height: 583px;
+    } 
+
+    .sliderLayoutContainer--home__shelf .sliderLeftArrow::before,
+    .sliderLayoutContainer--home__shelf .sliderRightArrow::before{
+        color: #3E3E3F;
+    }   
+
+    .infoCardContainer--images__gallery__home{
+        flex-direction: column-reverse;
+    }
+
+    .infoCardImageContainer--images__gallery__home,
+    .infoCardTextContainer--images__gallery__home{
+        width: 100%;
+    }
+
+    .infoCardContainer--images__gallery__home{
+        padding: 0;
+    }
+
+    .sliderLayoutContainer--images__gallery__home .sliderLeftArrow::before,
+    .sliderLayoutContainer--images__gallery__home .sliderRightArrow::before{
+        color: #3E3E3F;
+    }
+
+    .sliderTrackContainer--images__gallery__home{
+        padding-inline: 3vw;
+    }
+
+    .infoCardImage--images__gallery__home,
+    .infoCardContainer--images__gallery__home{
+        width: 100%;
+    }
+
+    .slide--images__gallery__home--visible{
+        width: 25vw;
+    }
+
+    .infoCardHeadline--images__gallery__home{
+        font-size: 17px;
+        color: #3E3E3F;
+        line-height: 24px;
+        font-family: "Quicksand-Bold";
+    }
+
+    .infoCardCallActionContainer--images__gallery__home{
+        display: none;
+    }
+
+    .sliderLayoutContainer--deals__home{
+        margin: 40px 0 10px;
+        max-width: 100%;
+        padding-inline: 30%;
+        padding-bottom: 20px;
+    }
+
+    .infoCardCallActionContainer--deals__home{
+        display: none;
+    }
+
+    .sliderLayoutContainer--carousel__home,
+    .sliderLayoutContainer--home__shelf,
+    .sliderLayoutContainer--images__gallery__home
+    {
+        display: flex;
+        margin-inline: auto;
+        justify-content: center;
+    }
+
+    .sliderLayoutContainer--carousel__home:nth-child(2n){
+        padding-top: 30px;
+    }
+
+    .slide--images__gallery__home--hidden .infoCardImage--images__gallery__home{
+        display: none;
+    }
+
+    .sliderLayoutContainer--banner-credito{
+        padding: 0;
+        margin: 0 auto 0 !important;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .sliderLayoutContainer--payment-methods{
+        margin-bottom: 20px !important;
+    }
+}

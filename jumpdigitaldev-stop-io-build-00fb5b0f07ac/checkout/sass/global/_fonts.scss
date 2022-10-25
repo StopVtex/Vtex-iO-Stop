@@ -1,0 +1,150 @@
+//Font Base
+//font-face($family,$src,$style: normal,$weight: normal)
+
+$iconFont: icofont;
+$regFont: 'Quicksand';
+$bodyFont: $regFont, sans-serif;
+$boldFont: $regFont; //included as regular
+
+$LightFontSrc: 'Quicksand-Light';
+@include font-face($regFont,$LightFontSrc,'', normal, 300);
+
+$regFontSrc: 'Quicksand-Regular';
+@include font-face($regFont,$regFontSrc,'', normal, 400); 
+
+$MediumFontSrc: 'Quicksand-Medium';
+@include font-face($regFont,$MediumFontSrc,'', normal, 500);
+
+$SemiBoldFontSrc: 'Quicksand-SemiBold';
+@include font-face($regFont,$SemiBoldFontSrc,'', normal, 600);
+
+$BoldFontSrc: 'Quicksand-Bold';
+@include font-face($regFont,$BoldFontSrc,'', normal, 700); 
+
+$iconFontSrc: "stopjeansicon";
+@include font-face($iconFont, $iconFontSrc, "ico");
+
+body {
+  font-family: $bodyFont;
+  font-size: $baseFontSize;
+  font-weight: $baseFontWeight;
+  line-height: $baseLineHeight;
+  color: $bodyColor;
+  text-shadow: none;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  // -ms-font-feature-settings: "kern" 1;
+  // -o-font-feature-settings: "kern" 1;
+  // -webkit-font-feature-settings: "kern" 1;
+  // font-feature-settings: "kern" 1;
+  -webkit-font-kerning: normal;
+  font-kerning: normal;
+}
+
+@mixin regularFont() {
+  font-family: $bodyFont;
+}
+
+.regularFont {
+  @include regularFont;
+}
+
+a,
+li,
+ul,
+p,
+span,
+em,
+td,
+tr,
+th,
+thead,
+table {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+  transition: all $fast;
+  &:hover,
+  &:focus {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.buttons,
+.feature-header,
+.main-heading,
+.pretitle-header,
+.section-header,
+.section-header-quote,
+.section-header-quote-center,
+.section-header-quote-right,
+.small-heading,
+.sub-section-header,
+.subpage-title,
+.tout-hader,
+.tout-header-with-pretitle,
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-weight: 700;
+}
+
+h1 {
+  &.main-heading {
+  }
+}
+
+h2 {
+  &.small-heading {
+  }
+}
+
+h3 {
+  &.subpage-title {
+  }
+}
+
+h4 {
+}
+
+h5 {
+}
+
+h6 {
+}
+
+.heading-1 {
+  font-weight: 500;
+  font-size: 14px;
+  @include query-large-up {
+  }
+}
+
+@mixin heading-1 {
+  @extend .heading-1;
+}
+
+.heading-2 {
+  font-size: 14px;
+}
+
+.heading-3 {
+  font-size: 16px;
+  padding-bottom: 11px;
+}
+
+.bodyfont-1 {
+  line-height: 22px;
+  font-size: 15px;
+  // font-family: $boldFont;
+}
+.bodyfont-2 {
+}

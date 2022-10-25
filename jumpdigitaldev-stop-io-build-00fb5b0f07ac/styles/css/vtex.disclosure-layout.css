@@ -1,0 +1,37 @@
+.trigger {
+    background-color: unset;
+    border: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.trigger--acordion-pdp-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+@media screen and (min-width: 1025px) {
+}
+
+@media screen and (max-width: 1024px) {
+    .trigger--footer__terms {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .content--footer__terms {
+        padding: 0 10px;
+    }
+    .trigger {
+        padding: 0;
+    }
+
+    .trigger--footer__terms{
+        padding-inline: 20px;
+    }
+}

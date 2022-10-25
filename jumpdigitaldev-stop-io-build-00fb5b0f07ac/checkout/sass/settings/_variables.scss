@@ -1,0 +1,81 @@
+/* Dimensions */
+$viewport-increment: 1px;
+// Small Screens
+// We don't need a small screen breakpoint variable since small is from 0 to $mediumScreen
+// $smallScreen: 768px;
+
+// Medium Screens
+$mediumScreen: 768px;
+
+// Large Screens
+$largeScreen: 1025px;
+$xLargeScreen: 1280px;
+$xxLargeScreen: 1280px;
+$largeScreenLimit: 1680px;
+
+// Constraints
+$min: min-width;
+$max: max-width;
+
+// $assetsURL: 'arquivos/';
+$assetsURL: 'https://devstopjeans.vtexassets.com/arquivos/';
+
+/* Colors */
+$black: #000000;
+$white: #FFF;
+$lightGray: #FAFAFA;
+$lightGray2: #F2EEE7;
+$lightGray3: #d7d7d8;
+$gray: #CBCBCB;
+$gray2: #525457;
+$gray3: #6d6f71;
+
+$primary: #3E3E3F;
+$primary2: #262626;
+
+$yellow: #ffad1f;
+$red: #E50C2A;
+$green: #3db014;
+
+$bodyColor: $black;
+$colorDisabled: $gray;
+$colorDisabledBorder: $gray;
+$colorError: $red;
+$colorErrorBg: $black;
+$colorSuccess: $green;
+$colorSuccessBg: $black;
+$colorBorder: '';
+$bodyColor2: $white;
+/* Fonts */
+$baseFontSize: 13px;
+$baseFontWeight: 400;
+$baseLineHeight: normal;
+
+/*  Icon - Fonts */    
+
+
+/* CTAs */
+$cta-height: 50px;
+$cta-height-mobile: 50px;
+
+
+/* Speeds */
+$quick: .1s;
+$fast: .25s;
+$slow: .45s;
+$slower: .8s;
+
+/* Sizes */
+$header-icon-size: 15px;
+$promoBannerHeight: 35px;
+$headerLargeScreenHeight: 60px;
+$headerSmallScreenHeight: 60px;
+
+$largeScreenMargin: 30px;
+$smallScreenMargin: 20px;
+
+$logoSize: 120px;
+$sectionGutter: 1px;
+
+$promoLargeHeight: calc(100vh - #{$headerLargeScreenHeight + $promoBannerHeight});
+$promoSmallHeight: calc(100vh - #{$headerSmallScreenHeight + $promoBannerHeight});

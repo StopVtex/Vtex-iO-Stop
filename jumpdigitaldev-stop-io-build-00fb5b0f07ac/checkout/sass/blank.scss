@@ -1,0 +1,26 @@
+// Common styles - Mobile First approach
+
+/* query-small: Tablet and Down */
+@media all and (max-width: 767px) {
+    
+}
+
+/* query-medium: just Tablet */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/* query-medium-down: Desktop and Down */
+@media all and (max-width: 1024px) {
+
+}
+
+/* query-large-up: Desktop and Up */
+@media all and (min-width: 1025px) {
+
+}
+
+/* query-xlarge-up: Desktop Large and Up */
+@media all and (min-width: 1200px) {
+    
+}

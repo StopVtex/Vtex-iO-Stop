@@ -1,0 +1,87 @@
+{
+    "store.product": {
+        "title": "Pagina de producto",
+        "children": [
+            "breadcrumb",
+            "responsive-layout.mobile#product-details",
+            "flex-layout.row#product-main",
+            "__fold__",
+            "responsive-layout.desktop#shelf",
+            "responsive-layout.mobile#shelf",
+            "product-reviews"
+        ]
+    },
+    "flex-layout.row#product-main": {
+        "title": "Contenido principal",
+        "props": {
+            "blockClass": "product__main__container",
+            "fullWidth": true,
+            "colGap": 5,
+            "marginBottom": 10
+        },
+        "children": [
+            "flex-layout.col#product-image",
+            "flex-layout.col#right-col"
+        ]
+    },
+    "flex-layout.col#product-image": {
+        "title": "Imagenes - Highlight - Descuento",
+        "props": {
+            "width": "50%",
+            "preventVerticalStretch": true,
+            "blockClass": "main-img"
+        },
+        "children": [
+            "product-price-savings",
+            "stack-layout#flags",
+            "add-to-list-btn",
+            "product-images"
+        ]
+    },
+    "flex-layout.col#right-col": {
+        "title": "Información",
+        "props": {
+            "preventVerticalStretch": true,
+            "paddingLeft": 5,
+            "rowGap": 0,
+            "blockClass":["pdp-details"]
+        },
+        "children": [
+            "responsive-layout.desktop#product-details",
+            "flex-layout.row#prices",
+            "sku-selector",
+            "modal-trigger#guia-tallas",
+            "flex-layout.row#buy-button",
+            "list-context.image-list#banner-credito",
+            "availability-notify",
+            "product-availability",
+            "product-description",
+            "disclosure-layout#component-second",
+            "product-questions-and-answers"
+        ]
+    },
+    "flex-layout.row#prices": {
+        "title": "Precios",
+        "children": [
+            "product-list-price",
+            "product-selling-price"
+        ],
+        "props": {
+            "blockClass": "prices-container",
+            "horizontalAlign": "left",
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.row#buy-button": {
+        "title": "Agregar al carrito - Favoritos",
+        "props": {
+            "marginTop": 4,
+            "marginBottom": 7,
+            "blockClass": "product-buy-button-container"
+        },
+        "children": [
+            "add-to-cart-button#pdp"
+        ]
+    }
+}

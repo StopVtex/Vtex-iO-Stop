@@ -1,0 +1,91 @@
+.drawer::after {
+    content: "";
+    width: 100%;
+    height: 64px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.openIconContainer :global(.vtex-button):hover,
+.openIconContainer :global(.vtex-button):focus {
+    background-color: unset;
+}
+
+.closeIcon,
+.cartIcon {
+    display: none;
+}
+
+
+
+.openIconContainer {
+    padding: 0 10px 0 0;
+}
+
+.opened {
+    top: 65px;
+}
+
+.drawerContent {
+    box-shadow: -3px -3px 6px #00000029;
+    position: relative;
+}
+
+.minicartSideBarContentWrapper {
+    height: calc(100vh - 140px) !important;
+}
+
+.closeIconContainer {
+    position: absolute;
+    right: 15px;
+    top: 17px;
+}
+
+.closeIconButton {
+    padding: 0;
+}
+
+.minicartQuantityBadgeDefault{
+    background-color: #EE1D23;
+}
+
+.minicartSummary{
+    border-top: 1px solid #64646453;
+}
+
+.minicartCheckoutButton--botton__close__buy :global(.vtex-button),
+.minicartCheckoutButton--botton__close__buy:hover :global(.vtex-button){
+    background-color: #EE1D23;
+    border-color: #EE1D23;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.minicartCheckoutButton--botton__close__buy :global(.vtex-button) :global(.vtex-button__label){
+    text-transform: none;
+}
+
+.minicartCheckoutButton--botton__close__buy{
+    padding-inline: 22px !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .opened {
+        top: 42px;
+    }
+
+    .openIconContainer {
+        padding: 0 0px 0 0;
+    }
+
+    .minicartSideBarContentWrapper {
+        height: calc(100vh - 76px) !important;
+    }
+
+    .overlay--minicart--visible{
+        top: 44px;
+    }
+}

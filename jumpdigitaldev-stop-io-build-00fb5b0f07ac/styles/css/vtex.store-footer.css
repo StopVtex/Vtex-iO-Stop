@@ -1,0 +1,30 @@
+.socialNetworkImage--linkedin,
+.socialNetworkImage--twitter,
+.socialNetworkImage--pinterest,
+.socialNetworkImage--facebook,
+.socialNetworkImage--instagram,
+.socialNetworkImage--youtube {
+    display: none;
+}
+
+.socialNetworkLink--linkedin,
+.socialNetworkLink--twitter,
+.socialNetworkLink--pinterest,
+.socialNetworkLink--facebook,
+.socialNetworkLink--instagram,
+.socialNetworkLink--youtube {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .socialNetworksContainer {
+        justify-content: center;
+        padding: 0 0 20px 0;
+        max-width: 100%;
+    }
+    .socialNetworkWrapper {
+        margin-bottom: 20px;
+    }
+}

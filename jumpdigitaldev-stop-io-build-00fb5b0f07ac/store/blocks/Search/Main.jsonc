@@ -1,0 +1,88 @@
+
+{
+  "store.search": {
+    "title": "Search",
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "hideUnavailableItems": true,
+      "context": {
+        "hideUnavailableItems": true,
+        "orderByField": "OrderByReleaseDateDESC",
+        "facetsBehavior": "Static",
+        "maxItemsPerPage": 12,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#category": {
+    "title": "Categorías",
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "hideUnavailableItems": true,
+      "context": {
+        "hideUnavailableItems": true,
+        "orderByField": "OrderByReleaseDateDESC",
+        "facetsBehavior": "Static",
+        "maxItemsPerPage": 12,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#brand": {
+    "title": "Marca",
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "hideUnavailableItems": true,
+      "context": {
+        "hideUnavailableItems": true,
+        "orderByField": "OrderByReleaseDateDESC",
+        "facetsBehavior": "Static",
+        "maxItemsPerPage": 12,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#department": {
+    "title": "Departamento",
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "hideUnavailableItems": true,
+      "context": {
+        "hideUnavailableItems": true,
+        "orderByField": "OrderByReleaseDateDESC",
+        "facetsBehavior": "Static",
+        "maxItemsPerPage": 12,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "title": "Subcategorías",
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "hideUnavailableItems": true,
+      "context": {
+        "hideUnavailableItems": true,
+        "orderByField": "OrderByReleaseDateDESC",
+        "facetsBehavior": "Static",
+        "maxItemsPerPage": 12,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  }
+}

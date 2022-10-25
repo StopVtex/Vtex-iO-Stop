@@ -1,0 +1,64 @@
+.closeIcon,
+.menuIcon {
+    display: none;
+}
+
+.childrenContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding: 0 16px;
+}
+
+.drawer {
+    top: 76px;
+}
+
+.closeIconButton--close__button__minicart::before {
+    content: "Seguir Comprando";
+}
+
+.closeIconButton--close__button__minicart {
+    width: 85% !important;
+    height: 40px;
+    border: 1px solid #757575;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.openIconContainer--menu__mobile{
+    z-index: 10000;
+    padding-left: 20px;
+}
+
+.closeIconContainer--menu__mobile{
+    justify-content: flex-end;
+    position: fixed;
+    right: calc(-100vw + 330px);
+}
+
+.drawer--menu__mobile{
+    top: 0;
+    z-index: 9999;
+}
+
+.overlay--menu__mobile--visible{
+    z-index: 1000;
+}
+
+.closeIconButton--close__button__minicart{
+    border: 1px solid #C5C6C8;
+    border-radius: 3px;
+}
+
+.closeIconButton--close__button__minicart::before{
+    font-size: 14px;
+    font-family: 'Quicksand-Bold';
+    line-height: 20px;
+    color: #3E3E3F;
+}
+@media screen and (max-width: 1024px){
+    .closeIconButton--close__button__minicart {
+        width: 87%!important;
+    }
+}

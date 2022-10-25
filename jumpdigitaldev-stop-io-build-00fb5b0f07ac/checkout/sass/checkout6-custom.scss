@@ -1,0 +1,29 @@
+/*****************
+Checkout - Spirito - main CSS Stylesheet
+Author: jairo@jumpdigital.co
+Date: 12-2021 - Version: 2.0
+*****************/
+@charset "UTF-8";
+
+/*================ SETTINGS ================*/
+@import 'settings/_variables';
+
+/*================ UTILS ================*/
+@import 'tools/_mixins';
+@import 'tools/_helpers';
+@import 'tools/_helperClasses';
+
+/*================ LIBS ================*/
+@import 'lib/_animate';
+
+/*================ GLOBAL ================*/
+@import 'global/_reset';
+@import 'global/_fonts';
+@import 'global/_icofont';
+@import 'global/_forms';
+
+@import 'global/_vtexId';
+
+/*================ PAGE ================*/
+@import 'pages/_checkout';
+//DO NOT INCLUDE MORE FILES FOR CHECKOUT

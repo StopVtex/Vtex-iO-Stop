@@ -1,0 +1,15 @@
+.summaryItemContainer{
+    font-size: 14.22px;
+    line-height: 19.6px;
+    font-family: 'Quicksand-Regular';
+}
+
+.summaryItemContainer:last-child{
+    font-family: 'Quicksand-Bold';    
+}
+
+.summarySmallDisclaimer{
+    font-size: 12.64px;
+    line-height: 16.8px;
+    color: #646464;
+}

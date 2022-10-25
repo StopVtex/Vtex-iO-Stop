@@ -1,0 +1,65 @@
+{
+  "flex-layout.row#header__2": {
+    "title": "Config.  Header 2",
+    "children": [
+      "flex-layout.col#header__2"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "header__2"
+      ]
+    }
+  },
+  "flex-layout.col#header__2": {
+    "title": "Contenido",
+    "children": [
+      "header-row#header__2__components",
+      "disposition-layout#menu-order"
+    ],
+    "props": {
+      "blockClass": [
+        "header__2"
+      ]
+    }
+  },
+  "header-row#header__2__components": {
+    "title": "Componentes",
+    "props": {
+      "fullWidth": true,
+      "sticky": true,
+      "blockClass": "header__componentes",
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "logo",
+      "header-spacer",
+      "disposition-layout#header_2_components"
+    ]
+  },
+  "disposition-layout#header_2_components": {
+    "title": "Mostrar / Ocultar / Reorganizar",
+    "children": [
+      "custom-search-bar",
+      "rich-text#header__wishlist",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "disposition": [
+        {
+          "order": 1
+        },
+        {
+          "order": 2
+        },
+        {
+          "order": 3
+        },
+        {
+          "order": 4
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "minicart.v2": {
+    "title": "Minicarrito",
+    "props": {
+      "blockClass": "minicart",
+      "variation": "drawer",
+      "linkVariationUrl": "",
+      "maxDrawerWidth": 328,
+      "openOnHover": false,
+      "quantityDisplay": "not-empty",
+      "itemCountMode": "",
+      "backdropMode": "visible",
+      "customPixelEventId": "",
+      "customPixelEventName": "addToCart",
+      "MinicartIcon": "custom-minicart-icon"
+    },
+    "children": [
+      "minicart-base-content"
+    ]
+  },
+  "minicart-base-content": {
+    "title": "Contenedor",
+    "blocks": [
+      "minicart-empty-state"
+    ],
+    "children": [
+      "minicart-product-list",
+      "flex-layout.row#minicart-footer"
+    ]
+  },
+  "minicart-empty-state": {
+    "title": " Vacío",
+    "children": [
+      "image#minicart_empty",
+      "rich-text#text-minicart-empty",
+      "rich-text#button-minicart-empty"
+    ]
+  },
+  "image#minicart_empty": {
+    "title": "Imagen",
+    "props": {
+      "blockClass": "image__minicart__empty"
+    }
+  },
+  "rich-text#text-minicart-empty": {
+    "title": "Texto",
+    "props": {
+      "blockClass": "text__minicart__empty",
+      "text": "Tu carrito de compras está vacío"
+    }
+  },
+  "rich-text#button-minicart-empty": {
+    "title": "Comprar",
+    "props": {
+      "text": "[Seguir Comprando](/)",
+      "blockClass": "go__to__continue"
+    }
+  },
+  "minicart-product-list": {
+    "title": "Lista",
+    "props": {
+      "blockClass": "content__minicart__products"
+    },
+    "blocks": [
+      "product-list#main"
+    ]
+  },
+  "flex-layout.row#minicart-footer": {
+    "title": "Contenido",
+    "props": {
+      "blockClass": "content__minicart__footer",
+      "width": "100%"
+    },
+    "children": [
+      "minicart-summary",
+      "minicart-checkout-button",
+      "drawer-close-button"
+    ]
+  },
+  "minicart-summary": {
+    "title": "Checkout",
+    "blocks": [
+      "checkout-summary.compact"
+    ]
+  },
+  "checkout-summary.compact": {
+    "title": "Checkout",
+    "children": [
+      "summary-totalizers"
+    ],
+    "props": {
+      "totalizersToShow": [
+        "Items",
+        "Discounts",
+        "Tax"
+      ]
+    }
+  },
+  "summary-totalizers": {
+    "title": "Resumen Precios",
+    "props": {
+      "showTotal": true,
+      "showDeliveryTotal": false
+    }
+  },
+  "minicart-checkout-button": {
+    "title": "Botón Cerrar Compra",
+    "props": {
+      "blockClass": "botton__close__buy"
+    }
+  },
+  "drawer-close-button": {
+    "title": "Boton Cerrar Carrito",
+    "props": {
+      "blockClass": "close__button__minicart"
+    }
+  }
+}

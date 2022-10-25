@@ -1,0 +1,9 @@
+.wrapper{
+    width: 100%;
+}
+
+@media screen and (min-width:1025px) {
+    .wrapper--header {
+        z-index: 1000 !important;
+    }
+}

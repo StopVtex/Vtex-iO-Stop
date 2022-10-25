@@ -1,0 +1,68 @@
+.container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 15px;
+}
+
+.homeIcon,
+.caretIcon,
+.termArrow,
+.caretIcon {
+    display: none;
+}
+
+.homeLink::before {
+    color: #3f3f40;
+    content: "Inicio";
+}
+
+.homeLink:hover {
+    opacity: 0.6;
+    transition: all 0.3s;
+}
+.term,
+.arrow:last-child {
+    color: #353535;
+}
+
+.link--2 {
+    padding-left: 0.25rem;
+}
+
+.term,
+.arrow {
+    padding: 0;
+}
+
+.arrow::before,
+.term::before {
+    content: "/";
+}
+
+.term::before {
+    padding-right: 5px;
+}
+
+.homeLink,
+.link{
+    color: #353535;
+}
+
+.link:hover{
+    color: #3e3e3f;
+    opacity: 0.6;
+}
+
+@media screen and (min-width: 1025px) {
+}
+@media screen and (max-width: 1024px) {
+    .container{
+        padding-inline: 15px;
+        margin: 0;
+    }
+
+    .link, .term{
+        font-size: 11.24px;
+    }
+}

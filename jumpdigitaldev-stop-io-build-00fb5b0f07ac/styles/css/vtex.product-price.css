@@ -1,0 +1,60 @@
+.sellingPriceValue--product-price-pdp,
+.listPrice--product-price-pdp {
+    font-size: 14.22px;
+    color: #353535;
+    
+    line-height: 19.6px;
+}
+.listPrice--product-price-pdp {
+    display: block;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.listPriceValue--price__main__shelf {
+    font-size: 14.22px;
+    color: #757575;
+    
+    line-height: 19.6px;
+}
+
+.currencyDecimal,
+.currencyFraction {
+    display: none;
+}
+
+.savings--discountpdp {
+    background-color: #3E3E3F;
+    display: block;
+    width: fit-content;
+    padding: 4px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    left: 132px;
+    top: 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--pdp-details) .listPriceValue{
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .sellingPrice--product-price-pdp,
+    .listPrice--product-price-pdp {
+        text-align: center;
+        display: block;
+        margin-bottom: 0;
+    }
+    .savings--discountpdp {
+        margin: 5px auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .savings--discountpdp {
+        left: 57px;
+    }
+}

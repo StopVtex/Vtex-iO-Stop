@@ -1,0 +1,90 @@
+{
+    "footer": {
+        "title": "Footer",
+        "blocks": [
+            "footer-layout.desktop",
+            "footer-layout.mobile"
+        ]
+    },
+    "footer-layout.desktop": {
+        "title": "Desktop",
+        "children": [
+            "flex-layout.row#newsletterCustom",
+            "flex-layout.row#footer",
+            "flex-layout.row#payment__methods__powered"
+        ]
+    },
+    "flex-layout.row#footer": {
+        "title": "Menu",
+        "props": {
+            "blockClass": "footer__content",
+            "colsizing": "auto"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#footer__menu__1",
+            "vtex.menu@2.x:menu#footer__menu__2",
+            "vtex.menu@2.x:menu#footer__menu__3",
+            "flex-layout.col#logo__social__media"
+        ]
+    },
+    "flex-layout.col#logo__social__media": {
+        "title": "Logo - Redes",
+        "props": {
+            "blockClass": "logo__social__media",
+            "preventVerticalStretch": true,
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "logo#footer",
+            "social-networks"
+        ]
+    },
+    "flex-layout.row#payment__methods__powered": {
+        "title": "Métodos Pago - Copyright",
+        "props": {
+            "blockClass": "payment__methods__powered",
+            "fullWidth": true
+        },
+        "children": [
+            "list-context.image-list#industria",
+            "list-context.image-list#payment__methods",
+            "flex-layout.row#vtex__jump",
+            "rich-text#text__copyright"
+        ]
+    },
+    "flex-layout.row#vtex__jump": {
+        "title": "Powered",
+        "props": {
+            "blockClass": "vtex__jump",
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#logo__vtex",
+            "image#logo__jump"
+        ]
+    },
+    "flex-layout.row#newsletterCustom": {
+        "title": "Newsletter",
+        "children": [
+            "flex-layout.col#newsletterCustom"
+        ],
+        "props": {
+            "blockClass": [
+                "nes"
+            ],
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#newsletterCustom": {
+        "title": "Contenido",
+        "children": [
+            "rich-text#newsletter",
+            "custom-newsletter-form"
+        ],
+        "props": {
+            "blockClass": [
+                "newsletterCustom"
+            ]
+        }
+    }
+}

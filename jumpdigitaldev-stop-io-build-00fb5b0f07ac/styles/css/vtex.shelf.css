@@ -1,0 +1,27 @@
+.sliderContainer {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0 0 30px;
+    margin-bottom: 30px;
+}
+.slide--sumary-related {
+    padding: 10px 10px 30px 10px;
+}
+.title {
+    justify-content: flex-start;
+    display: flex;
+    padding: 30px 50px;
+    font-size: 28.83px;
+    font-weight: bold;
+    line-height: 39.2px;
+    color: #646464;
+}
+@media screen and (max-width: 1024px) {
+    .title {
+        padding: 20px;
+        font-size: 20px;
+        margin-inline: 0px;
+        border-top: 1px solid #f2f4f5;
+        padding-inline: 20px;
+    }
+}

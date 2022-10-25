@@ -1,0 +1,261 @@
+{
+    "vtex.menu@2.x:menu#footer__menu__1": {
+        "title": "Menu 1",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "content__footer"
+        }
+    },
+    "vtex.menu@2.x:menu#footer__menu__2": {
+        "title": "Menu 2",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "content__footer"
+        }
+    },
+    "vtex.menu@2.x:menu#footer__menu__3": {
+        "title": "Menu 3",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "content__footer"
+        }
+    },
+    "logo#footer": {
+        "title": "Logo",
+        "props": {
+            "href": "/",
+            "width": 132,
+            "height": 32,
+            "mobileWidth": 90,
+            "mobileHeight": 32
+        }
+    },
+    "social-networks": {
+        "title": "Redes Sociales",
+        "props": {
+            "socialNetworks": [
+                {
+                    "url": "",
+                    "name": "Facebook"
+                },
+                {
+                    "url": "",
+                    "name": "Instagram"
+                },
+                {
+                    "url": "",
+                    "name": "Youtube"
+                },
+                {
+                    "url": "",
+                    "name": "pinterest"
+                }
+            ]
+        }
+    },
+    "rich-text#text__copyright": {
+        "title": "Text",
+        "props": {
+            "text": "",
+            "blockClass": "text__copyright",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "image#logo__vtex": {
+        "title": "Vtex",
+        "props": {
+            "blockClass": "logo__vtex",
+            "src": "",
+            "link": {
+                "url": "https://vtex.com/",
+                "newTab": true
+            }
+        }
+    },
+    "image#logo__jump": {
+        "title": "Jump",
+        "props": {
+            "blockClass": "logo__jump",
+            "src": "",
+            "link": {
+                "url": "https://jumpdigital.co/",
+                "newTab": true
+            }
+        }
+    },
+    "disclosure-layout-group#footer-content": {
+        "title": "Menu",
+        "props": {
+            "blockClass": "disclosure__footer__mobile",
+            "maxVisible": "one"
+        },
+        "children": [
+            "disposition-layout#testFooter"
+        ]
+    },
+    "disposition-layout#testFooter": {
+        "title": "Mostrar / Ocultar / Reorganizar",
+        "children": [
+            "disclosure-layout#footer__content__1",
+            "disclosure-layout#footer__content__2",
+            "disclosure-layout#footer__content__3",
+            "disclosure-layout#footer__content__4"
+        ],
+        "props": {
+            "disposition": [
+                {
+                    "order": 1
+                },
+                {
+                    "order": 2
+                },
+                {
+                    "order": 3
+                },
+                {
+                    "order": 4
+                }
+            ]
+        }
+    },
+    "disclosure-layout#footer__content__1": {
+        "title": "Menu 1",
+        "props": {
+            "blockClass": "footer__content",
+            "initialVisibility": "visible"
+        },
+        "children": [
+            "disclosure-trigger#footer__content",
+            "disclosure-content#footer__content"
+        ]
+    },
+    "disclosure-layout#footer__content__2": {
+        "title": "Menu 2",
+        "props": {
+            "blockClass": "footer__content"
+        },
+        "children": [
+            "disclosure-trigger#footer__content",
+            "disclosure-content#footer__content"
+        ]
+    },
+    "disclosure-layout#footer__content__3": {
+        "title": "Menu 3",
+        "props": {
+            "blockClass": "footer__content"
+        },
+        "children": [
+            "disclosure-trigger#footer__content",
+            "disclosure-content#footer__content"
+        ]
+    },
+    "disclosure-layout#footer__content__4": {
+        "title": "Menu 4",
+        "props": {
+            "blockClass": "footer__content"
+        },
+        "children": [
+            "disclosure-trigger#footer__content",
+            "disclosure-content#footer__content"
+        ]
+    },
+    "disclosure-trigger#footer__content": {
+        "title": "Título",
+        "props": {
+            "blockClass": "footer__terms"
+        },
+        "children": [
+            "menu-item#categories"
+        ]
+    },
+    "menu-item#categories": {
+        "title": "Asignación",
+        "props": {
+            "blockClass": "footer__menu-text",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": ""
+            }
+        }
+    },
+    "disclosure-content#footer__content": {
+        "title": "Categorias",
+        "children": [
+            "vtex.menu@2.x:menu#category__list"
+        ],
+        "props": {
+            "blockClass": "footer__terms"
+        }
+    },
+    "vtex.menu@2.x:menu#category__list": {
+        "title": "Listado",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "footer__menu-list",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#"
+            }
+        },
+        "children": []
+    },
+    "rich-text#newsletter": {
+        "title": "Titulo Newsletter",
+        "props": {
+            "width": "100%",
+            "textAlign": "center",
+            "textPosition": "center",
+            "blockClass": "newsletter",
+            "text": "##### **Lorem ipsum dolor sit amet, consetetur.**\n Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut."
+        }
+    },
+    "list-context.image-list#industria": {
+        "title": "Industria y Comercio",
+        "children": [
+            "slider-layout#industria"
+        ],
+        "props": {
+            "images": []
+        }
+    },
+    "list-context.image-list#payment__methods": {
+        "title": "Métodos de Pago",
+        "children": [
+            "slider-layout#paymeny__methods"
+        ],
+        "props": {
+            "images": []
+        }
+    },
+    "slider-layout#paymeny__methods": {
+        "title": "Slide",
+        "props": {
+            "blockClass": ["payment-methods-industria", "payment-methods"],
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            }
+        }
+    }
+    ,
+    "slider-layout#industria": {
+        "title": "Slide",
+        "props": {
+            "blockClass": ["payment-methods-industria", "industria"],
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            }
+        }
+    }
+}

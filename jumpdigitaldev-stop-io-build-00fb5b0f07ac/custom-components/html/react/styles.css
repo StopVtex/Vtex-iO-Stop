@@ -1,0 +1,98 @@
+
+.titleBlock {
+  display: block;
+  margin: 0;
+}
+.blockTop {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.blockTop h1 {
+  font-size: 25px;
+}
+.blockTop img {
+  width: 60px;
+}
+.bodyBlock {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 0;
+}
+.itemBlock {
+  padding: 15px;
+  background: transparent;
+  margin-top: 40px;
+}
+
+.itemBlockIframe {
+  padding: 0 !important;
+  background: transparent;
+  margin: -64px 0 0 0!important;
+  height: 100%;
+}
+
+.itemBlockIframe > div {
+  height: 100%;
+}
+
+.itemBlockText {
+  background: #ffffff;
+}
+
+.blockButton {
+  text-align: right;
+  display: block;
+}
+.buttonMoreLess {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Magenta";
+  font-size: 25px;
+}
+@media (max-width: 768px) {
+  .blockTop img {
+    width: 40px;
+  }
+  .buttonMoreLess {
+    font-size: 20px;
+  }
+  .blockTop h1 {
+    font-size: 20px;
+  }
+  .itemBlock div > span ul {
+    padding-left: 10px;
+  }
+  .itemBlock div > span ol {
+    padding-left: 10px;
+  }
+  .itemBlock > div > span {
+    font-size: 14px;
+  }
+  h1,
+  h3 {
+    font-weight: 900;
+  }
+  .bodyBlock {
+    width: 100%;
+    margin: auto;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-video-container) .bodyBlock .itemBlockIframe {
+    margin:  0 0 0!important;
+    position: relative;
+    top: -42px;
+  }
+}
+
+.buttonMoreLess img {
+  width: 15px;
+  vertical-align: middle;
+}
+
+.buttonMoreLess span {
+  font-size: 1rem;
+  font-weight: 900;
+}

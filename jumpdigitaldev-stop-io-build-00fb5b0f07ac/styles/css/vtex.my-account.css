@@ -1,0 +1,56 @@
+.boxContainer {
+    border-radius: 3px;
+    border: 1px solid #F5F5F5;
+}
+
+.page :global(.vtex-pageHeader__container) {
+    font-size: 28px;
+}
+
+.boxContainerBody :global(.vtex-button__label),
+:global(.vtex-pageHeader__children) :global(.vtex-button__label),
+:global(.vtex-modal__confirmation) :global(.vtex-button__label) {
+    color: #353535;
+    font-family: 'Quicksand-Regular';
+}
+
+
+.boxContainerBody :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
+    color: #3f3f40;
+    text-transform: initial;
+    background-color: #fff;
+    border-color: unset;
+    border-radius: 0;
+}
+
+.menu{
+    padding-inline: 20px;
+}
+
+.dataEntryLabel,
+.newsletterContainerTitle,
+.maskedPassword_title,
+.loginSessionsBox_title{
+    font-size: 16px;
+    font-weight: bold;
+    color: #353535;
+}
+
+.dataEntryChildren,
+.newsletterContainerMessage{
+    font-size: 14.22px;
+    font-weight: 400;
+    color: #353535;
+}
+
+@media screen and (max-width: 1024px){
+    .boxContainer{
+        border: 1px solid #F5F5F5;
+        border-radius: 2px;
+        padding-inline: 10px;
+    }
+
+    .boxContainerBody{
+        padding-inline: 0;
+    }
+}

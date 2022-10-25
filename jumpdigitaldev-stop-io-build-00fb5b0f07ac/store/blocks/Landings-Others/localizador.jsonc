@@ -1,0 +1,7 @@
+{
+    "store.custom#locator": {
+        "children": [
+            "store-custom-location"
+        ]
+    }
+}

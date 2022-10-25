@@ -1,0 +1,140 @@
+{
+  "store.orderplaced": {
+    "children": [
+      "order-placed"
+    ]
+  },
+  "order-placed": {
+    "title": "Order Placed",
+    "blocks": [
+      "op-header",
+      "op-order"
+    ]
+  },
+  "op-header": {
+    "title": "header",
+    "children": [
+      "op-section#confirmation",
+      "op-section#notices",
+      "op-summary-section",
+      "op-bank-invoice-section"
+    ]
+  },
+  "op-section#confirmation": {
+    "title": "Confirmación",
+    "props": {
+      "name": "confirmation",
+      "marginBottom": 9,
+      "borderless": true
+    },
+    "children": [
+      "op-confirmation-icon",
+      "op-confirmation-title",
+      "op-confirmation-message"
+    ]
+  },
+  "flex-layout.col#confirmation-buttons": {
+    "title": "imprimir",
+    "children": [
+      "op-print-button"
+    ]
+  },
+  "op-section#notices": {
+    "title": "Noticias",
+    "props": {
+      "name": "notices",
+      "marginBottom": 9,
+      "borderless": true
+    },
+    "children": [
+      "op-notices"
+    ]
+  },
+  "op-order": {
+    "title": "Orden",
+    "children": [
+      "flex-layout.row#order-header",
+      "op-order-split-notice",
+      "op-order-customer",
+      "op-section#payments",
+      "op-section#pickup-packages",
+      "op-section#delivery-packages",
+      "op-order-takeaway-packages",
+      "op-order-total"
+    ]
+  },
+  "flex-layout.row#order-header": {
+    "title": "Header",
+    "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
+      "colGap": 5,
+      "marginBottom": 5
+    },
+    "children": [
+      "flex-layout.col#order-header-info",
+      "flex-layout.col#order-header-options"
+    ]
+  },
+  "flex-layout.col#order-header-info": {
+    "title": "Contenido",
+    "children": [
+      "op-order-number",
+      "op-order-datetime",
+      "op-order-seller"
+    ]
+  },
+  "flex-layout.col#order-header-options": {
+    "title": "Desktop",
+    "children": [
+      "responsive-layout.desktop#order-options-desktop"
+    ]
+  },
+  "responsive-layout.desktop#order-options-desktop": {
+    "title": "Desktop",
+    "children": [
+      "op-order-options"
+    ]
+  },
+  "op-section#payments": {
+    "title": "Pago",
+    "props": {
+      "name": "paymentMethods"
+    },
+    "children": [
+      "op-order-payment",
+      "responsive-layout.mobile#order-options-mobile"
+    ]
+  },
+  "responsive-layout.mobile#order-options-mobile": {
+    "title": "Mobile",
+    "children": [
+      "op-order-options#mobile"
+    ]
+  },
+  "op-order-options#mobile": {
+    "title": "Mobile",
+    "props": {
+      "blockClass": "mobile",
+      "fullWidth": true
+    }
+  },
+  "op-section#pickup-packages": {
+    "title": "Paquetes",
+    "props": {
+      "name": "pickupPackages"
+    },
+    "children": [
+      "op-order-pickup-packages"
+    ]
+  },
+  "op-section#delivery-packages": {
+    "title": "Envio",
+    "props": {
+      "name": "deliveryPackages"
+    },
+    "children": [
+      "op-order-delivery-packages"
+    ]
+  }
+}

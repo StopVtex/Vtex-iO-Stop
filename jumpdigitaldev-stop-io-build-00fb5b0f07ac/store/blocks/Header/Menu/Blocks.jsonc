@@ -1,0 +1,352 @@
+{   
+    "vtex.menu@2.x:submenu#desktop-menu-1": {
+        "title": "Apertura",
+        "props": {
+            "blockClass": [
+                "category__main"
+            ]
+        },
+        "children": [
+            "toggle-layout#Open__style-1"
+        ]
+    },
+    "toggle-layout#Open__style-1": {
+        "title": "Ocultar / Mostrar",
+        "children": [
+            "flex-layout.row#categories-menu"
+        ]
+    },
+    "flex-layout.row#categories-menu": {
+        "title": "Contenido",
+        "props": {
+            "blockClass": "content__categories",
+            "width": "100%"
+        },
+        "children": [
+            "disposition-layout#categories__select"
+        ]
+    },
+    "disposition-layout#categories__select": {
+        "title": "Seleccion Cantidad de categorias",
+        "children": [
+            "vtex.menu@2.x:menu#submenu-menu-1",
+            "vtex.menu@2.x:menu#submenu-menu-2",
+            "vtex.menu@2.x:menu#submenu-menu-3",
+            "vtex.menu@2.x:menu#submenu-menu-4",
+            "vtex.menu@2.x:menu#submenu-menu-5",
+            "vtex.menu@2.x:menu#submenu-menu-6"
+        ],
+        "props": {
+            "blockClass": "mega-menu",
+            "disposition": [
+                {
+                    "order": 1
+                },
+                {
+                    "order": 2
+                },
+                {
+                    "order": 3
+                },
+                {
+                    "order": 4
+                },
+                {
+                    "order": 5
+                },
+                {
+                    "order": 6
+                }
+            ]
+        }
+    },
+    "vtex.menu@2.x:menu#submenu-menu-1": {
+        "title": "Config. Categoría 1",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "subcategorias"
+        }
+    },
+    "vtex.menu@2.x:menu#submenu-menu-2": {
+        "title": "Config. Categoría 2",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "subcategorias"
+        }
+    },
+    "vtex.menu@2.x:menu#submenu-menu-3": {
+        "title": "Config. Categoría 3",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "subcategorias"
+        }
+    },
+    "vtex.menu@2.x:menu#submenu-menu-4": {
+        "title": "Config. Categoría 4",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "subcategorias"
+        }
+    },
+    "vtex.menu@2.x:menu#submenu-menu-5": {
+        "title": "Config. Categoría 5",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "subcategorias"
+        }
+    },
+    "vtex.menu@2.x:menu#submenu-menu-6": {
+        "title": "Config. Categoría 6",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "subcategorias"
+        }
+    },
+    "vtex.menu@2.x:submenu#desktop-menu-2": {
+        "title": "Apertura",
+        "props": {
+            "blockClass": [
+                "category__main__2"
+            ]
+        },
+        "children": [
+            "toggle-layout#Open__style-2"
+        ]
+    },
+    "toggle-layout#Open__style-2": {
+        "title": "Ocultar / Mostrar",
+        "children": [
+            "flex-layout.row#categories-menu-image"
+        ]
+    },
+    "flex-layout.row#categories-menu-image": {
+        "title": "Contenido",
+        "props": {
+            "blockClass": "content__categories-images",
+            "colSizing": "auto"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#submenu-menu-1",
+            "flex-layout.row#menu-images"
+        ]
+    },
+    "flex-layout.row#menu-images": {
+        "title": "Images Section",
+        "children": [
+            "disposition-layout#imagen-menu",
+            "disposition-layout#imagen-menu-2"
+        ],
+        "props": {
+            "blockClass": "content__categories-images__container",
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.row#menu-image": {
+        "title": "Imagen",
+        "props": {
+            "blockClass": "content__imagenes",
+            "width": "70%",
+            "colSizing": "auto"
+        },
+        "children": [
+            
+            "image#megaMenu",
+            "link#button-image-menu"
+        ]
+    },
+    "flex-layout.row#menu-image2": {
+        "title": "Imagen",
+        "props": {
+            "blockClass": "content__imagenes",
+            "width": "70%",
+            "colSizing": "auto"
+        },
+        "children": [
+            
+            "image#megaMenu",
+            "link#button-image-menu"
+        ]
+    },
+    "disposition-layout#imagen-menu": {
+        "title": "Mostrar Ocultar Imagen",
+        "children": [
+            "flex-layout.row#menu-image"
+        ],
+        "props": {
+            "blockClass": "imagen__menu",
+            "disposition": [
+                {
+                    "order": 1
+                }
+            ]
+        }
+    },
+    "disposition-layout#imagen-menu-2": {
+        "title": "Mostrar Ocultar Imagen",
+        "children": [
+            "flex-layout.row#menu-image2"
+        ],
+        "props": {
+            "blockClass": "imagen__menu",
+            "disposition": [
+                {
+                    "order": 1
+                }
+            ]
+        }
+    },
+    "rich-text#text-image-menu": {
+        "title": "Título",
+        "props": {
+            "blockClass": "text__image__menu",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": ""
+        }
+    },
+    "image#megaMenu": {
+        "title": "Imagen",
+        "props": {
+            "src": ""
+        }
+    },
+    "link#button-image-menu": {
+        "title": "Botón",
+        "props": {
+            "label":"",
+            "blockClass": "button__menu-image",
+            "displayMode": "button",
+            "buttonProps": {
+                "size":"small",
+                "variant":"primary"
+            }
+        }
+    },
+    "flex-layout.row#menu": {
+        "title": "Contenido",
+        "props": {
+            "blockClass": "content__categories",
+            "width": "30%"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#submenu-menu-1"
+        ]
+    },
+    "rich-text#menu-whatsapp": {
+        "title": "Whatsapp",
+        "props": {
+            "blockClass": "menu__whatsapp",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "[Whatsapp](https://wa.me/573102091428)"
+        }
+    },
+    "image#menu-mobile": {
+        "title": "Imagen",
+        "props": {
+            "blockClass": "image__menu__mobile",
+            "src": ""
+        }
+    },
+    "rich-text#menu-see-all": {
+        "title": "Ver Todo",
+        "props": {
+            "blockClass": [
+                "menu__see__all",
+                "menu__see__all__subcategorias"
+            ],
+            "text": "[Ver todo](/)"
+        }
+    },
+    "rich-text#text-category-1": {
+        "title": "Category 1",
+        "props": {
+            "blockClass": "text-category-1",
+            "text": "[](/)"
+        }
+    },
+    "rich-text#text-category-3": {
+        "title": "Category 3",
+        "props": {
+            "blockClass": "text-category-1",
+            "text": "[](/)"
+        }
+    },
+    "rich-text#text-category-4": {
+        "title": "Category 4",
+        "props": {
+            "blockClass": "text-category-1",
+            "text": "[](/)"
+        }
+    },
+    "rich-text#menu-mobile-categories-img-1": {
+        "title": "Imagen - Categoría 1",
+        "props": {
+            "text": "",
+            "blockClass": "img-txt-mobile-menu"
+        }
+    },
+    "rich-text#menu-mobile-categories-img-2": {
+        "title": "Imagen - Categoría 2",
+        "props": {
+            "text": "",
+            "blockClass": "img-txt-mobile-menu"
+        }
+    },
+    "rich-text#menu-mobile-categories-img-3": {
+        "title": "Imagen - Categoría 3",
+        "props": {
+            "text": "",
+            "blockClass": "img-txt-mobile-menu"
+        }
+    },
+    "rich-text#menu-mobile-categories-img-4": {
+        "title": "Imagen - Categoría 4",
+        "props": {
+            "text": "",
+            "blockClass": "img-txt-mobile-menu"
+        }
+    },
+    "rich-text#menu-mobile-categories-img-5": {
+        "title": "Imagen - Categoría 5",
+        "props": {
+            "text": "",
+            "blockClass": "img-txt-mobile-menu"
+        }
+    },
+    "rich-text#menu-mobile-categories-img-6": {
+        "title": "Imagen - Categoría 6",
+        "props": {
+            "text": "",
+            "blockClass": "img-txt-mobile-menu"
+        }
+    },
+    "rich-text#menu-mobile-categories-img-7": {
+        "title": "Imagen - Categoría 7",
+        "props": {
+            "text": "",
+            "blockClass": "img-txt-mobile-menu"
+        }
+    },
+    "rich-text#menu-mobile-categories-img-8": {
+        "title": "Imagen - Categoría 8",
+        "props": {
+            "text": "",
+            "blockClass": "img-txt-mobile-menu"
+        }
+    },
+    "rich-text#menu-mobile-categories-img-9": {
+        "title": "Imagen - Categoría 9",
+        "props": {
+            "text": "",
+            "blockClass": "img-txt-mobile-menu"
+        }
+    },
+    "rich-text#menu-mobile-categories-img-10": {
+        "title": "Imagen - Categoría 10",
+        "props": {
+            "text": "",
+            "blockClass": "img-txt-mobile-menu"
+        }
+    }
+}

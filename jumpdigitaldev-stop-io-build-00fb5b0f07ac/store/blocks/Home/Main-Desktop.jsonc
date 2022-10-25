@@ -1,0 +1,72 @@
+{
+    "store.home": {
+        "title": "Home",
+        "blocks": [
+            "toggle-layout#home-video",
+            "toggle-layout#banner_main",
+            "__fold__",
+            "disposition-layout#total-home"
+        ]
+    },
+    "disposition-layout#total-home": {
+        "title": "Home - MO",
+        "children": [
+            "rich-text#title-shelf-home-1",
+            "list-context.product-list#home__shelf-1",
+            "list-context.image-list#medium__banner_1",
+            "rich-text#title-shelf-home-2",
+            "list-context.product-list#home__shelf-2",
+            "list-context.info-card-list#gallery",
+            "rich-text#title-shelf-home-3",
+            "list-context.product-list#home__shelf-3",
+            "list-context.image-list#medium__banner_2",
+            "rich-text#title-shelf-home-4",
+            "list-context.product-list#home__shelf-4",
+            "rich-text#title-h1-seo",
+            "list-context.info-card-list#deals__gallery"
+        ],
+        "props": {
+            "disposition": [
+                {
+                    "order": 1
+                },
+                {
+                    "order": 2
+                },
+                {
+                    "order": 3
+                },
+                {
+                    "order": 4
+                },
+                {
+                    "order": 5
+                },
+                {
+                    "order": 6
+                },
+                {
+                    "order": 7
+                },
+                {
+                    "order": 8
+                },
+                {
+                    "order": 9
+                },
+                {
+                    "order": 10
+                },
+                {
+                    "order": 11
+                },
+                {
+                    "order": 12
+                },
+                {
+                    "order": 13
+                }
+            ]
+        }
+    }
+}

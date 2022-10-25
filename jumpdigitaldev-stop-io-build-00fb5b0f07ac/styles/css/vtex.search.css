@@ -1,0 +1,87 @@
+.biggy-autocomplete {
+    right: 0;
+    top: 0px;
+    flex-direction: column !important;
+}
+
+.itemListTitle,
+.tileListTitle {
+    font-size: 16px;
+    line-height: 22.4px;
+    text-transform: initial;
+}
+
+.itemListLinkTitle {
+    font-size: 14.2px;
+    line-height: 19.6px;
+
+    text-transform: capitalize;
+}
+
+.itemListSubItemLink {
+    font-size: 14.2px;
+    line-height: 19.6px;
+
+    text-transform: capitalize;
+}
+
+:global(.vtex-search-2-x-biggy-autocomplete) .tileListItem {
+    max-width: 150px;
+}
+
+:global(.vtex-search-2-x-biggy-autocomplete) .tileListList {
+    display: flex;
+    justify-content: center;
+}
+
+.biggy-autocomplete .tileListItem {
+    max-width: 165px !important;
+}
+
+.searchBanner--my__banner {
+    width: 100%;
+    max-width: 100%;
+}
+
+.searchBanner--my__banner .a {
+    width: 100%;
+}
+
+.tileListSeeMore, .tileListTitle{
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #646464;
+    text-decoration: underline;
+    font-family: 'Quicksand-Bold';
+}
+
+.tileListTitle{
+    text-decoration: none;
+}
+
+.tileListItem :global(.vtex-product-summary-2-x-nameWrapper){
+    text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+    :global(.vtex-search-2-x-tileListList) .tileListItem:last-child {
+        display: none;
+    }
+    .close-btn {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    
+    .biggy-autocomplete {
+         max-width: calc( 100vw - 500px ); 
+        right: 0;
+        top: 14px;
+        flex-direction: row !important;
+        opacity: 0;
+    }
+    :global(.vtex-store-components-3-x-searchBarInnerContainer--filled) .biggy-autocomplete {
+        opacity: 1 !important;
+    }
+}

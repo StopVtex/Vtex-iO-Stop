@@ -1,0 +1,183 @@
+{
+    "breadcrumb.search": {
+        "title": "Breadcrumb",
+        "props": {
+            "homeIconSize": 20, 
+            "caretIconSize": "10",  
+            "showOnMobile": true
+        }
+    },
+    "search-banner": {
+        "title": "Banner",
+        "props": {
+            "area": "one",
+            "blockClass": "my__banner",
+            "horizontalAlignment": "center"
+        }
+    },
+    "search-fetch-previous": {
+        "title": "Ver Menos",
+        "props":{
+            "blockClass":["plp__container-right__fetch-previous-button", "gallery-button"]
+        }
+    },
+    "search-fetch-more": {
+        "title": "Ver Más",
+        "props":{
+            "blockClass":["plp__container-right__fetch-more-button", "gallery-button"]
+        }
+    },
+    "filter-navigator.v3": {
+        "title": "Filtros",
+        "props": {
+            "openFiltersMode": "one",
+            "initiallyCollapsed": true,
+            "navigationTypeOnMobile": "collapsible",
+            "truncateFilters": true
+        }
+    },
+    "order-by.v2": {
+        "title": "Orden",
+        "props":{
+            "showOrderTitle": false,
+            "hiddenOptions": ["", "OrderByTopSaleDESC"]
+        }
+    },
+    "total-products.v2": {
+        "title": "Total productos"
+    },
+    "search-content": {
+        "title": "Resultado de busqueda",
+        "blocks": [
+            "gallery",
+            "not-found"
+        ],
+        "props": {
+            "blockClass": "plp__shelfs"
+        }
+    },
+    "gallery": {
+        "title": "Galeria",
+        "props": {
+            "blockClass": "gallery",
+            "mobileLayoutMode": "small",
+            "maxItemsPerRow": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 1
+            },
+            "layouts": [
+                {
+                    "name": "grid",
+                    "component": "GridSummary",
+                    "itemsPerRow": {
+                        "desktop": 4,
+                        "tablet": 3,
+                        "phone": 2
+                    }
+                },
+                {
+                    "name": "grid2",
+                    "component": "GridSummary",
+                    "itemsPerRow": {
+                        "desktop": 3,
+                        "tablet": 3,
+                        "phone": 1
+                    }
+                }
+            ],
+            "GridSummary": "product-summary.shelf"
+        }
+    },
+    "gallery-layout-switcher": {
+        "title": "Layouts",
+        "children": [
+            "gallery-layout-option#grid",
+            "gallery-layout-option#grid2"
+        ]
+    },
+    "gallery-layout-option#grid2": {
+        "title": "3 Columnas",
+        "props": {
+            "blockClass": "grid2",
+            "name": "grid2"
+        },
+        "children": [
+            "rich-text#option-grid-mobile"
+        ]
+    },
+    "gallery-layout-option#grid": {
+        "title": "1 Galeria",
+        "props": {
+            "blockClass": "grid1",
+            "name": "grid"
+        },
+        "children": [
+            "rich-text#option-list-mobile"
+        ]
+    },
+    "rich-text#option-grid-mobile": {
+        "title": "Imagen",
+        "props": {
+            "text": "",
+            "blockClass": [
+                "layout-option",
+                "twolines"
+            ]
+        }
+    },
+    "rich-text#option-list-mobile": {
+        "title": "Imagen",
+        "props": {
+            "text": "",
+            "blockClass": [
+                "layout-option",
+                "oneline"
+            ]
+        }
+    },
+    "slider-layout#images-gallery-plp": {
+        "title": "Imagenes",
+        "props": {
+            "blockClass": ["images__gallery__home", "images__gallery__plp"],
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 2,
+                "phone": 2
+            },
+            "infinite": true
+        }
+    },
+    "list-context.info-card-list#gallery-plp": {
+        "title": "Galería",
+        "children": [
+            "slider-layout#images-gallery-plp"
+        ],
+        "props": {
+            "blockClass": "home-gallery-slider",
+            "infoCards": [
+                {}
+            ]
+        }
+    },
+    "list-context.image-list#banner-not-found": {
+        "title": "Banner",
+        "children": [
+            "slider-layout#banner-not-found"
+        ],
+        "props": {
+            "images": []
+        }
+    },
+    "slider-layout#banner-not-found": {
+        "title": "Banner",
+        "props": {
+            "blockClass": "banner-not-found",
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            }
+        }
+    }
+}

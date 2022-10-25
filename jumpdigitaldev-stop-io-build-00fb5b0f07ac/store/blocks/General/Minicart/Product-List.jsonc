@@ -1,0 +1,86 @@
+{
+    "product-list#main": {
+        "title": "Lista",
+        "props": {
+            "blockClass": "pruducts__minicart"
+        },
+        "blocks": [
+            "product-list-content-desktop"
+        ]
+    },
+    "product-list-content-desktop": {
+        "title": "Contenido",
+        "props": {
+            "blockClass": "total__content__minicart__prducts"
+        },
+        "children": [
+            "flex-layout.row#list-row.desktop"
+        ]
+    },
+    "flex-layout.row#list-row.desktop": {
+        "title": "Contenedor Items",
+        "props": {
+            "blockClass": "total__wrapper__minicart",
+            "fullWidth": true,
+            "paddingBottom": "6",
+            "paddingTop": "5",
+            "colSizing": "auto",
+            "preserverLayoutOnMobile": "true"
+        },
+        "children": [
+            "product-list-image",
+            "flex-layout.col#main-container.desktop"
+        ]
+    },
+    "product-list-image": {
+        "title": "Imagen Producto",
+        "props": {
+            "blockClass": "image__minicart"
+        }
+    },
+    "flex-layout.col#main-container.desktop": {
+        "title": "Items",
+        "props": {
+            "width": "grow",
+            "blockClass": "main__content_items"
+        },
+        "children": [
+            "flex-layout.row#name-remove",
+            "quantity-selector#minicart",
+            "product-variations",
+            "price#desktop"
+        ]
+    },
+    "flex-layout.row#name-remove": {
+        "title": "Nombre - Eliminar",
+        "props": {
+            "blockClass": "name__remove",
+            "colSizing": "auto",
+            "marginLeft": "3"
+        },
+        "children": [
+            "vtex.product-list:product-name",
+            "remove-button"
+        ]
+    },
+    "quantity-selector#minicart": {
+        "title": "Selector Cantidad",
+        "props": {
+            "blockClass": "selector__quantity",
+            "mode": "dropdown"
+        }
+    },
+    "price#desktop": {
+        "title": "Precio",
+        "props": {
+            "textAlign": "left",
+            "blockClass": "price__minicart"
+        }
+    },
+    "product-variations": {
+        "title": "Variaciones",
+        "props": {
+            "blockClass": "varionations__minicart"
+        }
+    }
+}

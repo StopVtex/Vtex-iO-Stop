@@ -1,0 +1,31 @@
+{
+    "custom-minicart-icon": {
+        "component": "MinicartIcon"
+    },
+    "custom-modal-menu": {
+        "component": "ModalSearchBar",
+        "composition": "children",
+        "allowed": "*"
+    },
+    "custom-open-modal": {
+        "component": "OpenModal",
+        "allowed": "*",
+        "composition": "children"
+    },
+    "custom-search-bar": {
+        "component": "ModalSearchBar",
+        "composition": "children"
+    },
+    "custom-newsletter-popup": {
+        "component": "NewsletterFormPopUp"
+    },
+    "custom-nesletter": {
+        "component": "Newsletter"
+    },
+    "custom-newsletter-form": {
+        "component": "NewsletterForm"
+    },
+    "custom-styles": {
+        "component": "StylesMain"
+    }
+}

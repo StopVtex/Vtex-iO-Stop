@@ -1,0 +1,335 @@
+{
+    "toggle-layout#home-video": {
+        "title": "Video Principal - MO",
+        "children": [
+            "flex-layout.row#home-video"
+        ]
+    },
+    "toggle-layout#video-media-desktop": {
+        "title": "Media Desktop 1 - MO",
+        "children": [
+            "responsive-layout.desktop#video-media-desktop"
+        ]
+    },
+    "toggle-layout#video-media-mobile": {
+        "title": "Media Mobile - MO",
+        "children": [
+            "responsive-layout.mobile#video-media-mobile"
+        ]
+    },
+    "toggle-layout#banner_main": {
+        "title": "Banner principal - MO",
+        "children": [
+            "list-context.image-list#first__banner"
+        ]
+    },
+    "responsive-layout.desktop#video-media-desktop": {
+        "title": "Media Desktop 1",
+        "children": [
+            "list-context.media-list#images-videos"
+        ]
+    },
+    "responsive-layout.desktop#video-media-desktop-2": {
+        "title": "Media Desktop 2",
+        "children": [
+            "list-context.media-list#images-videos"
+        ]
+    },
+    "responsive-layout.mobile#video-media-mobile": {
+        "title": "Media Mobile",
+        "children": [
+            "list-context.media-list#images-videos"
+        ]
+    },
+    "list-context.media-list#images-videos": {
+        "title": "Imagenes - Videos",
+        "children": [
+            "slider-layout#images-videos"
+        ],
+        "props": {
+            "blockClass": "images__videos__home",
+            "height": "auto",
+            "mediaList": []
+        }
+    },
+    "slider-layout#images-videos": {
+        "title": "Slider",
+        "props": {
+            "itemsPerPage": 1,
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": [
+                "carousel__home",
+                "carousel__home__video-1"
+            ],
+            "autoplay": {
+                "timeout": 8000,
+                "stopOnHover": true
+            }
+        }
+    },
+    "list-context.product-list#home__shelf-1": {
+        "title": "Vitrina 1",
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#home__shelf"
+        ]
+    },
+    "list-context.product-list#home__shelf-2": {
+        "title": "Vitrina 2",
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#home__shelf"
+        ]
+    },
+    "list-context.product-list#home__shelf-3": {
+        "title": "Vitrina 3",
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#home__shelf"
+        ]
+    },
+    "list-context.product-list#home__shelf-4": {
+        "title": "Vitrina 4",
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#home__shelf"
+        ]
+    },
+    "slider-layout#home__shelf": {
+        "title": "Slide",
+        "props": {
+            "blockClass": [
+                "home__shelf"
+            ],
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 8000,
+                "stopOnHover": true
+            },
+            "infinite": true,
+            "showPaginationDots": "always",
+            "showNavigationArrows": "always",
+            "arrowSize": 20
+        }
+    },
+    "list-context.image-list#first__banner": {
+        "title": "Banner 1",
+        "children": [
+            "slider-layout#first__banner"
+        ],
+        "props": {
+            "images": []
+        }
+    },
+    "list-context.image-list#medium__banner_1": {
+        "title": "Banner Medio 1",
+        "children": [
+            "slider-layout#first__banner_medium"
+        ],
+        "props": {
+            "images": []
+        }
+    },
+    "list-context.image-list#medium__banner_2": {
+        "title": "Banner Medio 2",
+        "children": [
+            "slider-layout#first__banner_medium"
+        ],
+        "props": {
+            "images": []
+        }
+    },
+    "slider-layout#first__banner_medium": {
+        "title": "Banner",
+        "props": {
+            "blockClass": [
+                "banner_medium",
+                "carousel__home",
+                "carousel__home-1"
+            ],
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            }
+        }
+    },
+    "slider-layout#first__banner": {
+        "title": "Banner",
+        "props": {
+            "blockClass": [
+                "carousel__home",
+                "carousel__home-1"
+            ],
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            }
+        }
+    },
+    "rich-text#title-second-banner": {
+        "title": "Título Vitrina - 2",
+        "props": {
+            "blockClass": [],
+            "text": ""
+        }
+    },
+    "list-context.image-list#second__banner": {
+        "title": "Banner 2",
+        "children": [
+            "slider-layout#first__banner"
+        ],
+        "props": {
+            "images": [
+                {
+                    "image": "",
+                    "mobileImage": ""
+                }
+            ]
+        }
+    },
+    "list-context.info-card-list#deals__gallery": {
+        "title": "Deals",
+        "children": [
+            "slider-layout#content-deals"
+        ],
+        "props": {
+            "infoCards": [
+                {}
+            ]
+        }
+    },
+    "slider-layout#content-deals": {
+        "title": "Slide",
+        "props": {
+            "blockClass": "deals__home",
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 4,
+                "phone": 12
+            }
+        }
+    },
+    "rich-text#title-shelf-home-1": {
+        "title": "Título Vitrina 1",
+        "props": {
+            "text": "",
+            "textPosition": "Center",
+            "textAlignment": "Center",
+            "isFullModeStyle": false,
+            "blockClass": "shelf-title"
+        }
+    },
+    "rich-text#title-shelf-home-2": {
+        "title": "Título Vitrina 2",
+        "props": {
+            "blockClass": "shelf-title",
+            "text": "Título"
+        }
+    },
+    "rich-text#title-shelf-home-3": {
+        "title": "Título Vitrina 3",
+        "props": {
+            "blockClass": "shelf-title",
+            "text": "Título"
+        }
+    },
+    "rich-text#title-shelf-home-4": {
+        "title": "Título Vitrina 4",
+        "props": {
+            "blockClass": "shelf-title",
+            "text": "Título"
+        }
+    },
+    "rich-text#title-h1-seo": {
+        "title": "SEO",
+        "props": {
+            "blockClass": "seo",
+            "text": "",
+            "width": "100%"
+        }
+    },
+    "slider-layout#images-gallery": {
+        "title": "Imagenes",
+        "props": {
+            "blockClass": "images__gallery__home",
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true
+        }
+    },
+    "info-card#home-1": {
+        "title": "Promoción 1",
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "right",
+            "imageUrl": "",
+            "headline": "",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "blockClass": [
+                "info-card-home-1",
+                "banner-promo-1"
+            ],
+            "textAlignment": "left"
+        }
+    },
+    "info-card#home-2": {
+        "title": "Promoción 2",
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "",
+            "headline": "",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "blockClass": [
+                "info-card-home-1",
+                "info-card-home-2"
+            ],
+            "textAlignment": "left"
+        }
+    },
+    "list-context.info-card-list#gallery": {
+        "title": "Galería",
+        "children": [
+            "slider-layout#images-gallery"
+        ],
+        "props": {
+            "blockClass": "home-gallery-slider",
+            "infoCards": [
+                {}
+            ]
+        }
+    },
+    "html-content#videos": {
+        "title": "Video"
+    },
+    "flex-layout.row#home-video": {
+        "title": "Video Principal",
+        "children": [
+            "html-content#videos"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "home-video-container"
+        }
+    }
+}

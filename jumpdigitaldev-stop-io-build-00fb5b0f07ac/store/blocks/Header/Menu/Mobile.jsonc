@@ -1,0 +1,354 @@
+{
+  "drawer#menu__mobile": {
+    "title": "Menú",
+    "props": {
+      "blockClass": "menu__mobile"
+    },
+    "children": [
+      "disposition-layout#menu-order-mobile",
+      "rich-text#menu-whatsapp",
+      "image#menu-mobile"
+    ]
+  },
+  "disposition-layout#menu-order-mobile": {
+    "title": "Menú - MO",
+    "children": [
+      "vtex.menu@2.x:menu#menu-links-1",
+      "menu-item#sac-main-1",
+      "vtex.menu@2.x:menu#menu-links-2",
+      "menu-item#sac-main-2",
+      "vtex.menu@2.x:menu#menu-links-3",
+      "menu-item#sac-main-3",
+      "vtex.menu@2.x:menu#menu-links-4",
+      "menu-item#sac-main-4",
+      "vtex.menu@2.x:menu#menu-links-5",
+      "menu-item#sac-main-5",
+      "vtex.menu@2.x:menu#menu-links-6"
+    ],
+    "props": {
+      "blockClass": "mega-menu",
+      "disposition": [
+        {
+          "order": 1
+        },
+        {
+          "order": 2
+        },
+        {
+          "order": 3
+        },
+        {
+          "order": 4
+        },
+        {
+          "order": 5
+        },
+        {
+          "order": 6
+        },
+        {
+          "order": 7
+        },
+        {
+          "order": 8
+        },
+        {
+          "order": 9
+        },
+        {
+          "order": 10
+        },
+        {
+          "order": 11
+        }
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#menu-links-1": {
+    "title": "Link simple 1",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "menu-subcategorias-link"
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#menu-links-2": {
+    "title": "Link simple 2",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "menu-subcategorias-link"
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#menu-links-3": {
+    "title": "Link simple 3",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "menu-subcategorias-link"
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#menu-links-4": {
+    "title": "Link simple 4",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "menu-subcategorias-link"
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#menu-links-5": {
+    "title": "Link simple 5",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "menu-subcategorias-link"
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#menu-links-6": {
+    "title": "Link simple 6",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "menu-subcategorias-link"
+      ]
+    }
+  },
+  "menu-item#sac-main-1": {
+    "title": "Dropdown 1",
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-main"
+    ],
+    "props": {
+      "blockClass": [
+        "menu-drawer"
+      ]
+    }
+  },
+  "menu-item#sac-main-2": {
+    "title": "Dropdown 2",
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-main"
+    ],
+    "props": {
+      "blockClass": [
+        "menu-drawer"
+      ]
+    }
+  },
+  "menu-item#sac-main-3": {
+    "title": "Dropdown 3",
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-main"
+    ],
+    "props": {
+      "blockClass": [
+        "menu-drawer"
+      ]
+    }
+  },
+  "menu-item#sac-main-4": {
+    "title": "Dropdown 4",
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-main"
+    ],
+    "props": {
+      "blockClass": [
+        "menu-drawer"
+      ]
+    }
+  },
+  "menu-item#sac-main-5": {
+    "title": "Dropdown 5",
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-main"
+    ],
+    "props": {
+      "blockClass": [
+        "menu-drawer"
+      ]
+    }
+  },
+
+  "vtex.menu@2.x:menu#menu-mobile": {
+    "title": "Subcategorías",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "menu-subcategorias-link"
+      ]
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-main": {
+    "title": "Apertura",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "content__categories"
+    },
+    "children": [
+      "flex-layout.row#contenedor__categories"
+    ]
+  },
+  "flex-layout.row#contenedor__categories": {
+    "title": "Categorīas",
+    "props": {
+      "blockClass": "contenedor__categories"
+    },
+    "children": [
+      "disposition-layout#menu-mobile-cat-img",
+      "toggle-layout#dropdown-1",
+      "toggle-layout#dropdown-2",
+      "toggle-layout#menu-simple-2"
+    ]
+  },
+  "toggle-layout#dropdown-1": {
+    "title": "Categoria 1 - MO",
+    "children": [
+      "menu-item#sac-mobile-1"
+    ]
+  },
+  "toggle-layout#dropdown-2": {
+    "title": "Categoria 2 - MO",
+    "children": [
+      "menu-item#sac-mobile-1"
+    ]
+  },
+  "toggle-layout#menu-simple-2": {
+    "title": "links 2 - MO",
+    "children": [
+      "vtex.menu@2.x:menu#menu-links-1"
+    ]
+  },  
+  "disposition-layout#menu-mobile-cat-img": {
+    "title": "Menú - MO",
+    "children": [
+      "rich-text#menu-mobile-categories-img-1",
+      "rich-text#menu-mobile-categories-img-2",
+      "rich-text#menu-mobile-categories-img-3",
+      "rich-text#menu-mobile-categories-img-4",
+      "rich-text#menu-mobile-categories-img-5",
+      "rich-text#menu-mobile-categories-img-6",
+      "rich-text#menu-mobile-categories-img-7",
+      "rich-text#menu-mobile-categories-img-8",
+      "rich-text#menu-mobile-categories-img-9",
+      "rich-text#menu-mobile-categories-img-10"
+    ],
+    "props": {
+      "blockClass": "mega-menu",
+      "disposition": [
+        {
+          "order": 1
+        },
+        {
+          "order": 2
+        },
+        {
+          "order": 3
+        },
+        {
+          "order": 4
+        },
+        {
+          "order": 5
+        },
+        {
+          "order": 6
+        },
+        {
+          "order": 7
+        },
+        {
+          "order": 8
+        },
+        {
+          "order": 9
+        },
+        {
+          "order": 10
+        }
+      ]
+    }
+  },
+  "toggle-layout#menu-simple-1": {
+    "title": "Links 1 - MO",
+    "children": [
+      "vtex.menu@2.x:menu#menu-links-1"
+    ]
+  },
+  "menu-item#sac-mobile-1": {
+    "title": "Categoría 1",
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-1"
+    ],
+    "props": {
+      "blockClass": [
+        "categoria-mobile"
+      ]
+    }
+  },
+  "menu-item#sac-mobile-2": {
+    "title": "Categoría 2",
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-1"
+    ],
+    "props": {
+      "blockClass": [
+        "categoria-mobile"
+      ]
+    }
+  },
+  "menu-item#sac-mobile-3": {
+    "title": "Categoría 3",
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-1"
+    ],
+    "props": {
+      "blockClass": [
+        "categoria-mobile"
+      ]
+    }
+  },
+  "menu-item#sac-mobile-4": {
+    "title": "Categoría 4",
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-1"
+    ],
+    "props": {
+      "blockClass": [
+        "categoria-mobile"
+      ]
+    }
+  },
+  "menu-item#sac-mobile-5": {
+    "title": "Categoría 5",
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-1"
+    ],
+    "props": {
+      "blockClass": [
+        "categoria-mobile"
+      ]
+    }
+  },
+  "menu-item#sac-mobile-6": {
+    "title": "Categoría 6",
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#menu-mobile-1"
+    ],
+    "props": {
+      "blockClass": [
+        "categoria-mobile"
+      ]
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#menu-mobile-1": {
+    "title": "Apertura",
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile" 
+    ]
+  }
+}

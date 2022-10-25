@@ -1,0 +1,8 @@
+{
+  "text-content": {
+    "component": "TextContent"
+  },
+  "html-content": {
+    "component": "IframeContent"
+  }
+}

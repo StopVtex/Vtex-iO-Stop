@@ -1,0 +1,81 @@
+.confirmationMessage,
+.noticesList,
+.orderDatetime,
+.orderSoldBy,
+.customerInfoListName,
+.customerInfoListEmail,
+.customerInfoListDocument,
+.customerInfoListPhone,
+.paymentGroup,
+.paymentValue,
+.orderPaymentItem,
+.packageShippingEstimate,
+.packageSLA,
+.addressContainer,
+.productName,
+.productQuantity,
+.productPrice,
+.totalList,
+.orderPlacedMainWrapper,
+.updateOrderButton :global(.vtex-button),
+.myOrdersButton :global(.vtex-button),
+.cancelOrderButton :global(.vtex-button) {
+    
+}
+
+.orderNumber{
+    
+    font-size: 20px !important;
+}
+
+.totalListItem {
+    font-size: 17px;
+}
+.section--confirmation {
+    margin-bottom: 30px !important;
+}
+
+.confirmationIconWrapper {
+    display: flex;
+    width: 35px;
+    margin: 0 auto;
+}
+
+.noticeListItem  {
+    padding: 8px 0px;
+}
+
+.orderSeller {
+    color: #53c1c0;
+}
+
+.updateOrderButton :global(.vtex-button),
+.myOrdersButton :global(.vtex-button) {
+    background-color: unset;
+    border: 1px solid #353535;
+    color: #353535;
+    border-radius: 1px;
+}
+
+.updateOrderButton :global(.vtex-button):hover,
+.myOrdersButton :global(.vtex-button):hover,
+.cancelOrderButton :global(.vtex-button):hover {
+    transition: all 0.3s;
+    opacity: 0.6;
+}
+
+.cancelOrderButton :global(.vtex-button) {
+    color: #d60000;
+    background-color: unset;
+    border: 1px solid #d60000;
+    border-radius: 1px;
+}
+
+.confirmationIconWrapper .sucessIcon {
+    width: 35px !important;
+    height: 35px !important;
+}
+
+.orderWrapper :global(.vtex-flex-layout-0-x-flexRowContent) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 50% !important;
+}

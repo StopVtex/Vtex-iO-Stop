@@ -1,0 +1,17 @@
+.container{
+    margin-top: 16px;
+}
+
+.lowStockText,
+.lowStockHighlight{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    font-family: 'Quicksand-Regular';
+    color: #262626;
+    font-weight: bold;
+}
+
+.lowStockHighlight{
+    padding-right: 3px;
+}

@@ -1,0 +1,129 @@
+{
+  "header": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "title": "Desktop",
+    "props": {
+      "blockClass": "header__desktop"
+    },
+    "children": [
+      "custom-open-modal#newsletter_popUp",
+      "custom-open-modal",
+      "sticky-layout#header",
+      "custom-styles",
+      "image#whatsapp-fixed-button"
+    ]
+  },
+  "header-row#main": {
+    "title": "Principal",
+    "children": [
+      "disposition-layout#header"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main",
+      "maxWidth": 100
+    }
+  },
+  "disposition-layout#header": {
+    "title": "Mostrar / Ocultar / Reorganizar",
+    "children": [
+      "slider-layout#header-top",
+      "sticky-layout#header"
+    ],
+    "props": {
+      "disposition": [
+        {
+          "order": 1
+        },
+        {
+          "order": 2
+        }
+      ]
+    }
+  },
+  "sticky-layout#header": {
+    "title": "Header Fijo",
+    "children": ["header-row#header__components"],
+    "props":{
+      "blockClass":"header"
+    }
+  },
+  "disposition-layout#header__selection": {
+    "title": "Seleccion de Header - MO",
+    "children": [
+      "header-row#header__components"
+    ],
+    "props": {
+      "disposition": [
+        {
+          "order": 1
+        }
+      ]
+    }
+  },
+  "header-row#header__components": {
+    "title": "Config. Header 1",
+    "props": {
+      "fullWidth": true,
+      "sticky": false,
+      "blockClass": "header__componentes",
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "disposition-layout#header_components"
+    ]
+  },
+  "disposition-layout#header_components": {
+    "title": "Mostrar / Ocultar / Reorganizar",
+    "children": [
+      "logo",
+      "disposition-layout#menu-order",
+      "header-spacer",
+      "search-bar",
+      "rich-text#header__wishlist",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "disposition": [
+        {
+          "order": 1
+        },
+        {
+          "order": 2
+        },
+        {
+          "order": 3
+        },
+        {
+          "order": 4
+        },
+        {
+          "order": 5
+        },
+        {
+          "order": 6
+        },
+        {
+          "order": 7
+        },
+        {
+          "order": 8
+        }
+      ]
+    }
+  }
+}

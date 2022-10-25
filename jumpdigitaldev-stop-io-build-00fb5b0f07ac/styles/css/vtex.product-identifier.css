@@ -1,0 +1,19 @@
+.product-identifier--productReference{
+    font-size: 11.24px;
+    color: #353535;
+    line-height: 15.28px;
+}
+
+.product-identifier--productReference::before{
+    content: 'Ref';
+}
+
+.product-identifier__label{
+    display: none;
+}
+
+@media screen and (max-width: 1024px){
+    .product-identifier--productReference {
+        padding-inline: 20px;
+    }
+}

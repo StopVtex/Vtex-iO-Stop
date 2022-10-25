@@ -1,0 +1,224 @@
+{
+    "product-summary.shelf": {
+        "title": "Vitrina",
+        "props": {
+            "blockClass": [
+                "principal__shelf"
+            ],
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            }
+        },
+        "children": [
+            "add-to-list-btn",
+            "stack-layout#shelf",
+            "vtex.product-highlights@2.x:product-highlights",
+            "product-summary-image",
+            "flex-layout.row#info__shelf"
+        ]
+    },
+    "stack-layout#shelf": {
+        "title": "Contenedor Flags",
+        "children": [
+            "vtex.product-highlights@2.x:product-highlights#new",
+            "vtex.product-highlights@2.x:product-highlights#sale"
+        ],
+        "props": {
+            "blockClass": ["shelf__flags"],
+            "zIndexOffset": 0
+        }
+    },
+    "vtex.product-highlights@2.x:product-highlights#new": {
+        "title": "Highlights-1",
+        "props": {
+            "blockClass":"flagNew",
+            "type": "collection",
+            "filter": {
+                "type": "show",
+                "highlightNames": [
+                    "Novedades"
+                ]
+            }
+        },
+        "children": [
+            "product-highlight-text"
+        ]
+    },
+    "vtex.product-highlights@2.x:product-highlights#sale": {
+        "title": "Highlights-2",
+        "props": {
+            "blockClass":"flagSale",
+            "type": "collection",
+            "filter": {
+                "type": "show",
+                "highlightNames": [
+                    "SALE"
+                ]
+            }
+        },
+        "children": [
+            "product-highlight-text"
+        ]
+    },
+
+    "product-highlight-text": {
+        "props": {
+            "blockClass":"textflag",
+            "message": "{highlightName}"
+        }
+    },
+    "flex-layout.row#info__shelf": {
+        "title": "Informacion",
+        "children": [
+            "flex-layout.col#info__shelf"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "info__shelf"
+            ]
+        }
+    },
+    "flex-layout.col#info__shelf": {
+        "title": "Informacion",
+        "children": [
+            "product-summary-name",
+            "product-summary-price",
+            "responsive-layout.desktop#skuselector-desktop",
+            "responsive-layout.mobile#skuselector-mobile",
+            "flex-layout.row#spacer",
+            "flex-layout.row#btn-summary"
+        ],
+        "props": {
+            "blockClass": [
+                "info__shelf"
+            ]
+        }
+    },
+    "responsive-layout.desktop#skuselector-desktop":{
+        "title": "Selector Variación - Desktop",
+        "children":[
+            "product-summary-sku-selector"
+        ] 
+    },
+    "responsive-layout.mobile#skuselector-mobile":{
+        "title": "Selector Variacion - Mobile",
+        "children":[
+            "sku-selector"
+        ]         
+    },
+    "product-summary-sku-selector": {
+        "title": "Selector de variaciones",
+        "props": {
+            "thumbnailImage": "skucolor",
+            "initialSelection": "empty"
+        }
+    },
+    "product-summary-sku-selector#mobile": {
+        "title": "Selector de variaciones",
+        "props": {
+            "thumbnailImage": "skucolor",
+            "initialSelection": "complete"
+        }
+    },
+    "product-summary-name": {
+        "title": "Nombre del producto",
+        "props": {
+            "tag": "h3"
+        }
+    },
+    "add-to-list-btn#shelf": {
+        "title": "Boton agregar",
+        "props": {
+            "blockClass": "wishShelf"
+        }
+    },
+    "add-to-cart-button#shelf-mobile": {
+        "title": "Boton agregar",
+        "props": {
+            "blockClass": ["shelf", "add-to-cart-button", "add-to-cart-button-mobile"],
+            "onClickBehavior": "go-to-product-page",
+            "unavailableText": "No disponible",
+            "text": "Añadir",
+            "customPixelEventId": "undefined"
+        }
+    },
+    "add-to-cart-button": {
+        "title": "Boton agregar",
+        "props": {
+            "blockClass": ["shelf", "add-to-cart-button", "add-to-cart-button-desktop"],
+            "unavailableText": "No disponible",
+            "text": "Añadir",
+            "customPixelEventId": "addToCart"
+        }
+    },
+    "flex-layout.col#spacer": {
+        "title": "Espacios",
+        "props": {
+            "width": "grow",
+            "heigth": "grow"
+        }
+    },
+    "flex-layout.row#spacer": {
+        "title": "Espacios",
+        "props": {
+            "blockClass": "spacer"
+        }
+    },
+    "flex-layout.row#btn-summary": {
+        "title": "Boton add y precio",
+        "children": [
+            "flex-layout.col#btn-summary"
+        ],
+        "props": {
+            "fullWidth": true,
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "blockClass": [
+                "btn-summary"
+            ]
+        }
+    },
+    "flex-layout.col#btn-summary": {
+        "title": "Contenido",
+        "children": [
+            "responsive-layout.desktop#btn-summary-desktop",
+            "responsive-layout.mobile#btn-summary-mobile"
+        ],
+        "props": {
+            "blockClass":["btn-summary-col"]
+        }
+    },
+    "responsive-layout.desktop#btn-summary-desktop":{
+        "title":"agregar a carrito - desktop",
+        "children":[
+            "add-to-cart-button"
+        ]
+    },
+    "responsive-layout.mobile#btn-summary-mobile":{
+        "title":"agregar a carrito - mobile",
+        "children":[
+            "add-to-cart-button#shelf-mobile"
+        ]
+    },
+    "product-summary-price": {
+        "title": "Precios",
+        "props": {
+            "width": "35%",
+            "showListPrice": true,
+            "showLabels": false,
+            "showInstallments": false
+        }
+    },
+    "product-summary-image": {
+        "title": "Imagen",
+        "props": {
+            "hoverImage": {
+                "criteria": "index",
+                "index": 1
+            }
+        }
+    }
+}

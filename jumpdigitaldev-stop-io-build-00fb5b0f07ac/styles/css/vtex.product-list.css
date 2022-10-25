@@ -1,0 +1,111 @@
+.productImage--image__minicart {
+    width: 80px;
+    border-radius: 0;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--name__remove) .deleteIcon {
+    display: none;
+}
+
+.removeButton {
+    padding: 0;
+}
+
+
+
+.productImageContainer--image__minicart {
+    width: 85px;
+}
+
+:global(.vtex-product-list-0-x-quantityDropdownContainer--selector__quantity) :global(.vtex-dropdown__container) {
+    width: 58px;
+    height: 26px;
+    border-radius: 0;
+    border: 1px solid #e5e5e5;
+    margin: 5px 0;
+}
+
+:global(.vtex-product-list-0-x-quantityDropdownContainer--selector__quantity) :global(.vtex-dropdown__arrow) {
+    width: 15px;
+    padding: 0;
+}
+
+.productVariationsContainer--varionations__minicart {
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 14.22px;
+    color: #353535;
+}
+
+.price--price__minicart,
+.currencyContainer--price__minicart {
+    font-size: 14.22px;
+    line-height: 19.2px;
+    color: #353535;
+    width: auto !important;
+}
+
+.productPriceContainer--price__minicart {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+}
+
+.productPriceCurrency--price__minicart {
+    margin: 0;
+}
+
+.currencyContainer--price__minicart {
+    font-size: 14.22px;
+    line-height: 19.2px;
+    color: #757575;
+}
+
+.quantityDropdownMobileContainer--selector__quantity :global(.vtex-dropdown__container) {
+    border: 1px solid #353535;
+    border-radius: 0;
+    width: 30%;
+}
+
+.quantityDropdownMobileContainer--selector__quantity :global(.vtex-dropdown__button) {
+    color: #353535;
+    padding-left: 6px;
+}
+
+.removeButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productPriceCurrency--price__minicart{
+    color: #C5C6C8;    
+    font-family: 'Quicksand-Regular';
+    padding-right: 10px;
+}
+
+.price--price__minicart{
+    color: #EE1D23 !important;
+    font-family: 'Quicksand-Bold';
+}
+
+.price--price__minicart,
+.productPriceCurrency--price__minicart{
+    font-size: 14.22px;
+    line-height: 19.2px;
+}
+
+@media screen and (max-width: 1024px){
+    .quantityDropdownMobileContainer--selector__quantity :global(.vtex-dropdown__container) {
+        width: unset;
+    }
+}
+
+@media screen and (max-width: 330px){
+    .price--price__minicart,
+.productPriceCurrency--price__minicart{
+    font-size: 12.22px;
+    line-height: 19.2px;
+}
+}

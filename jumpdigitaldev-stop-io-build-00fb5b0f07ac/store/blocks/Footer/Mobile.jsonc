@@ -1,0 +1,12 @@
+{
+    "footer-layout.mobile": {
+        "title": "Mobile",
+        "children": [
+            "flex-layout.row#newsletterCustom",
+            "logo#footer",
+            "social-networks",
+            "disclosure-layout-group#footer-content",
+            "flex-layout.row#payment__methods__powered"
+        ]
+    }
+}
