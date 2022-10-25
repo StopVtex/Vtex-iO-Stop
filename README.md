@@ -1,1 +1,0 @@
-# Vtex-iO-Stop
