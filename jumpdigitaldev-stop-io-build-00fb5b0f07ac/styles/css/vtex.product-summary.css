@@ -752,7 +752,7 @@
 }
 
 .currencyContainer {
-    color: #ee1d23;
+    color: #3e3e3f;
     font-family: "Quicksand-Bold";
     font-size: 14.22px;
     line-height: 19.6px;
@@ -760,7 +760,7 @@
 }
 
 .price_listPrice .currencyContainer {
-    color: #ee1d23 !important;
+    color: #C5C6C8 !important;
     font-family: 'Quicksand-Regular';
 }
 
@@ -770,11 +770,10 @@
 
 .price_className .price_sellingPriceContainer:first-child .currencyContainer {
     color: #ee1d23;
-    ;
 }
 
 .element--principal__shelf:hover .price_className .price_sellingPriceContainer:last-child .currencyContainer {
-    color: #ee1d23 !important;
+    color: #3e3e3f !important;
 }
 
 .diagonalCross {

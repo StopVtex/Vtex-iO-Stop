@@ -1,7 +1,7 @@
 {
   "vendor": "stopjeans",
   "name": "store",
-  "version": "0.0.33",
+  "version": "0.0.34",
   "builders": {
     "docs": "0.x",
     "react": "3.x",
