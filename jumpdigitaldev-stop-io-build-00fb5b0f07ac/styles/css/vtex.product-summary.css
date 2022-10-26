@@ -769,11 +769,11 @@
 }
 
 .price_className .price_sellingPriceContainer:first-child .currencyContainer {
-    color: #ee1d23;
+    color: #3e3e3f;
 }
 
 .element--principal__shelf:hover .price_className .price_sellingPriceContainer:last-child .currencyContainer {
-    color: #3e3e3f !important;
+    color: #ee1d23 !important;
 }
 
 .diagonalCross {
