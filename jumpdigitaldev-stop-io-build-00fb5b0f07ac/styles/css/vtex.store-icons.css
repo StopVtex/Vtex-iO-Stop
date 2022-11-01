@@ -238,11 +238,11 @@
     color: #000;
 }
 
-:global(.vtex-store-components-3-x-imageElementLink--logo__jump)::before {
+/*:global(.vtex-store-components-3-x-imageElementLink--logo__jump)::before {
     content: "\e922";
     font-size: 25px;
     color: #000;
-}
+}*/
 
 :global(.vtex-search-result-3-x-filterAvailable) :global(.vtex-search-result-3-x-filterIcon)::before {
     content: "\e911";
