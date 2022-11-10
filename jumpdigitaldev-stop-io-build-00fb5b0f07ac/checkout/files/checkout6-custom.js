@@ -516,3 +516,8 @@ $(window).on("hashchange", function() {
 /*------------CONTRAENTREGA------------*/
 /*-------------------------------------*/
 /*-------------------------------------*/
+window.addEventListener('popstate', function () {
+	setTimeout(() => {
+		$(".payment-group-list-btn").find("#payment-group-debitPaymentGroup").click();
+	}, 500);
+});
